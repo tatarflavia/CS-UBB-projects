@@ -1,0 +1,35 @@
+﻿@page "/teachers"
+@model WebAppFacultyManagement.Pages.Teachers.IndexModel
+@{
+    ViewData["Title"] = "Teachers";
+}
+
+<h2>Teachers</h2>
+
+
+<div class="row">
+    @foreach (var teacher in Model.Teachers)
+    {
+        var photopath = "~/images/" + (teacher.Photopath ?? "noimagehuman.jpg");
+        <div class="col-md-4">
+            <div class="panel panel-info" style="height:400px;">
+                <div class="panel-heading">
+                    <h3 class="panel-title">@teacher.Name</h3>
+                </div>
+                <div class="panel-body">
+                    <img style="height:230px;" src="@photopath" asp-append-version="true" />
+                    <p>@teacher.Email</p>
+                    <p><a href="@teacher.Webadress">@teacher.Webadress</a></p>
+                    <p>
+                        @if (Model.HasAdminRights)
+                        {
+                            <a asp-page="/Teachers/Update" asp-route-id="@teacher.TeacherID" class="btn btn-primary" role="button">Change Information</a>
+                            <a asp-page="/Teachers/Delete" asp-route-id="@teacher.TeacherID" class="btn btn-default" role="button">Delete</a>
+                        }
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    }
+</div>

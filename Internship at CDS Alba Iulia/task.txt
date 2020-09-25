@@ -1,0 +1,8 @@
+-	Aici ai putea incerca sa implementezi o aplicatie de timp cursuri/clase/profesori
+-	Sa folosesti .NET core
+-	Si sa aiba vreo 5 view-uri:
+o	Login
+o	Pagina cu profesorii (add/delete/update)
+o	Pagina cu elevii (add/delete/update)
+o	Pagina cu clasele (add/delete/update); aici poti sa asignezi un profesor la clasa si mai multi elevi la o clasa
+o	Pagina cu cursurile (add/delete/update); o lista cu cursuri si elevi + notele

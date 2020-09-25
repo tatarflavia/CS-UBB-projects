@@ -1,0 +1,115 @@
+﻿@page
+@model WelcomeModel
+@{
+    ViewData["Title"] = "About";
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        font-family: "Lato", sans-serif
+    }
+
+    .mySlides {
+        display: none
+    }
+</style>
+<body>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:0px">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+            <img src="~/images/welcome.jpg" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h2>Welcome to Gilbert School</h2>
+                <p><b>Established in 1892, London's leading IB School</b></p>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="~/images/graduates.jpg" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h2>Congratulations Class of 2020</h2>
+                <p><b>96% pass rate, 6 bilingual diplomas,35- average point score</b></p>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="~/images/start.jpg" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h2>Your place is here</h2>
+                <p><b>Find all the information you need for the start of term.</b></p>
+            </div>
+        </div>
+
+
+
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <h2 class="w3-wide">ACADEMICS</h2>
+            <p class="w3-opacity"><i>We love educating children</i></p>
+            <p class="w3-justify">
+                At Gilbert School we are proud to have been authorised to offer the IB Primary Years Programme (IBPYP) since 2004.<br />
+
+                Gilbert School children from Kindergarten through to Year 6 learn through the IBPYP, which offers a rich and stimulating curriculum designed to generate an enthusiasm for learning and value it as a life-long process. The IBPYP focuses on the development of the whole child and addresses social, physical, emotional and cultural needs through a comprehensive inquiry-based programme.<br />
+
+                At the heart of the IB programme is the IB Learner Profile. The attributes of which all members of the school community strive to develop within themselves.<br />
+
+                Our academic programme is complemented by various field trips relating to the Units of Inquiry and a range of extra-curricular activities that are offered at our school.<br />
+
+                If you would like to find out more please get in touch.<br />
+
+                Srinanda Gupta<br />
+                IBPYP Coordinator
+            </p>
+            
+        </div>
+
+
+        <!-- End Page Content -->
+    </div>
+
+    
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </footer>
+
+    <script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+
+    </script>
+
+</body>
+</html>
+
+

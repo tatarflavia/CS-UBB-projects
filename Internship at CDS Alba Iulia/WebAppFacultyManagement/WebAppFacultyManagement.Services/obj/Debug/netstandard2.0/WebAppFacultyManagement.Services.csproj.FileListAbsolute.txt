@@ -1,0 +1,12 @@
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\bin\Debug\netstandard2.0\WebAppFacultyManagement.Services.deps.json
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\bin\Debug\netstandard2.0\WebAppFacultyManagement.Services.dll
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\bin\Debug\netstandard2.0\WebAppFacultyManagement.Services.pdb
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\bin\Debug\netstandard2.0\WebAppFacultyManagement.Models.dll
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\bin\Debug\netstandard2.0\WebAppFacultyManagement.Models.pdb
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\obj\Debug\netstandard2.0\WebAppFacultyManagement.Services.csprojAssemblyReference.cache
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\obj\Debug\netstandard2.0\WebAppFacultyManagement.Services.csproj.CoreCompileInputs.cache
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\obj\Debug\netstandard2.0\WebAppFacultyManagement.Services.AssemblyInfoInputs.cache
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\obj\Debug\netstandard2.0\WebAppFacultyManagement.Services.AssemblyInfo.cs
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\obj\Debug\netstandard2.0\WebAppFacultyManagement.Services.csproj.CopyComplete
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\obj\Debug\netstandard2.0\WebAppFacultyManagement.Services.dll
+E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Services\obj\Debug\netstandard2.0\WebAppFacultyManagement.Services.pdb

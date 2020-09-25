@@ -1,0 +1,94 @@
+﻿@page "/teachers/update/{id:min(1)?}"
+@model WebAppFacultyManagement.Pages.Teachers.UpdateModel
+@{
+    ViewData["Title"] = Model.SelectedTeacher.TeacherID > 0 ? "Update Teacher": "Add Teacher";
+    var pageHeader= Model.SelectedTeacher.TeacherID>0 ? "Edit information for "+Model.SelectedTeacher.Name : "Add a new teacher";
+    // If a teacher does not have a photo display noimage.png
+    var photopath = "~/images/" + (Model.SelectedTeacher.Photopath ?? "noimagehuman.jpg");
+}
+
+<h2>@pageHeader</h2>
+
+<form class="form-horizontal" method="post" enctype="multipart/form-data">
+    <input hidden asp-for="SelectedTeacher.TeacherID" />
+    <input hidden asp-for="SelectedTeacher.Photopath" />
+
+    <div asp-validation-summary="All" class="text-danger">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SelectedTeacher.Name" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedTeacher.Name" class="form-control" placeholder="Name">
+            <span asp-validation-for="SelectedTeacher.Name" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="SelectedTeacher.Email" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedTeacher.Email" class="form-control" placeholder="Email">
+            <span asp-validation-for="SelectedTeacher.Email" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="SelectedTeacher.Webadress" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedTeacher.Webadress" class="form-control" placeholder="Web page">
+            <span asp-validation-for="SelectedTeacher.Webadress" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="SelectedTeacher.CNP" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedTeacher.CNP" class="form-control" placeholder="CNP">
+            <span asp-validation-for="SelectedTeacher.CNP" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="SelectedTeacher.PhoneNumber" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedTeacher.PhoneNumber" class="form-control" placeholder="Phone-number">
+            <span asp-validation-for="SelectedTeacher.PhoneNumber" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="SelectedTeacher.Address" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedTeacher.Address" class="form-control" placeholder="Address">
+            <span asp-validation-for="SelectedTeacher.Address" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group" >
+        <label asp-for="Photo" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="Photo" class="custom-file-input form-control">
+            <label class="custom-file-label">Click here to change photo</label>
+        </div>
+    </div>
+
+    @*Display the existing photo*@
+    <div class="form-group">
+        <img class="imageThumbnail" src="@photopath" asp-append-version="true" style="margin-left: auto; margin-right: auto; display: block;">
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a asp-page="/Teachers/Index" class="btn btn-default"> Cancel</a>
+        </div>
+    </div>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+        <script>
+            $(document).ready(function () {
+                $('.custom-file-input').on("change", function () {
+                    var fileName = $(this).val().split("\\").pop();
+                    $(this).next('.custom-file-label').html(fileName);
+                });
+            });
+        </script>
+    }
+
+</form>

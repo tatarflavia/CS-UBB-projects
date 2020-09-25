@@ -1,0 +1,23 @@
+﻿@page "/groups/students/{id:min(1)}"
+@model WebAppFacultyManagement.Pages.Classes.StudentListModel
+@{
+    ViewData["Title"] = Model.SelectedClass.Name + " Students";
+}
+
+<h2>Listing students for group @Model.SelectedClass.Name - @Model.SelectedClass.Profile</h2>
+<div class="table-responsive">
+<table class="table table-striped table-hover">
+    <tr>
+        <th>Name</th>
+    </tr>
+    @foreach (var student in Model.Students)
+    {
+    <tr>
+        <td>@student.Name</td>   
+    </tr>
+    }
+</table>
+<a asp-page="/Classes/Index" class="btn btn-primary" role="button">Go back</a>
+</div>
+
+    

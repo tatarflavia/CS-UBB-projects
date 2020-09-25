@@ -1,0 +1,18 @@
+﻿@page "/subjects/delete/{id:min(1)}"
+@model WebAppFacultyManagement.Pages.Subjects.DeleteModel
+@{
+    ViewData["Title"] = "Delete Subject";
+}
+
+<h2>Delete confirmation</h2>
+
+<div class="alert alert-danger">
+    <h5>Are you sure you want to delete subject - @Model.Subject.Name ?</h5>
+    <form method="post">
+        <input hidden asp-for="Subject.SubjectID" />
+        <button type="submit" class="btn btn-danger">Yes</button>
+        <a asp-page="/Subjects/Index" class="btn btn-primary">No</a>
+    </form>
+</div>
+
+

@@ -1,0 +1,18 @@
+﻿@page "/groups/delete/{id:min(1)}"
+@model WebAppFacultyManagement.Pages.Classes.DeleteModel
+@{
+    ViewData["Title"] = "Delete Group";
+}
+
+
+<h2>Delete confirmation</h2>
+
+<div class="alert alert-danger">
+    <h5>Are you sure you want to delete group - @Model.ClassToBeDeleted.Name ?</h5>
+    <form method="post">
+        <input hidden asp-for="ClassToBeDeleted.ClassID" />
+        <button type="submit" class="btn btn-danger">Yes</button>
+        <a asp-page="/Classes/Index" class="btn btn-primary">No</a>
+    </form>
+</div>
+

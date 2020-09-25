@@ -1,0 +1,48 @@
+﻿@page "/students"
+@model WebAppFacultyManagement.Pages.Students.IndexModel
+@{
+    ViewData["Title"] = "Students";
+}
+
+
+<h2>Students</h2>
+   <div class="row">
+        @foreach (var student in Model.Students)
+        {
+                var photopath = "~/images/" + (student.Photopath ?? "noimagehuman.jpg");
+                var classDisplay = "";
+                @if (student.ClassID == 0)
+                {
+                    classDisplay = "No group chosen yet.";
+                }
+                else
+                {
+                    @foreach (var selectedClass in Model.Classes)
+                    {
+                        @if (student.ClassID == selectedClass.ClassID)
+                        {
+                            classDisplay = selectedClass.Name;
+                            break;
+                        }
+                    }
+                }
+         <div class="col-md-4">
+            <div class="panel panel-info" style="height:400px;">
+                <div class="panel-heading">
+                    <h3 class="panel-title">@student.Name - @classDisplay</h3>
+                </div>
+                <div class="panel-body">
+                    <img style="height:280px;" src="@photopath" asp-append-version="true" />
+                    <p></p>
+                    <p>
+                        @if (Model.HasAdminRights)
+                        {
+                            <a asp-page="/Students/Update" asp-route-id="@student.StudentID" class="btn btn-primary" role="button">Change Information</a>
+                            <a asp-page="/Students/Delete" asp-route-id="@student.StudentID" class="btn btn-default" role="button">Delete</a>
+                        }
+                    </p>
+                </div>
+            </div>
+        </div>
+        }
+</div>

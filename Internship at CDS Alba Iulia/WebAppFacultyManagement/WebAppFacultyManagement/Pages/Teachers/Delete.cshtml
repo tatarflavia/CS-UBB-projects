@@ -1,0 +1,17 @@
+﻿@page "/teachers/delete/{id:min(1)}"
+@model WebAppFacultyManagement.Pages.Teachers.DeleteModel
+@{
+    ViewData["Title"] = "Delete Teacher";
+}
+
+<h2>Delete confirmation</h2>
+
+<div class="alert alert-danger">
+    <h5>Are you sure you want to delete teacher - @Model.Teacher.Name ?</h5>
+    <form method="post">
+        <input hidden asp-for="Teacher.TeacherID"/>
+        <button type="submit" class="btn btn-danger">Yes</button>
+        <a asp-page="/Teachers/Index" class="btn btn-primary">No</a>
+    </form>
+</div>
+

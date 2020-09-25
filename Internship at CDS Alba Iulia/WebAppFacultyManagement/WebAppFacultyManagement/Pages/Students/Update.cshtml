@@ -1,0 +1,115 @@
+﻿@page "/students/update/{id:min(1)?}/{handler?}"
+@model WebAppFacultyManagement.Pages.Students.UpdateModel
+@{
+    ViewData["Title"] = Model.SelectedStudent.StudentID > 0 ? "Update Student": "Add Student";
+    var pageHeader = Model.SelectedStudent.StudentID > 0 ? "Edit information for " + Model.SelectedStudent.Name : "Add a new student";
+    var updateBoolVar = Model.SelectedStudent.StudentID > 0 ? "yes" : "no";
+    var photopath = "~/images/" + (Model.SelectedStudent.Photopath ?? "noimagehuman.jpg");
+}
+
+<h2>@pageHeader</h2>
+
+
+@if (updateBoolVar == "yes")
+{
+    <form class="form-horizontal" method="post" asp-page-handler="UpdateClassForSelectedStudent">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Group</label>
+            <div class="col-sm-10">
+                <select asp-for="SelectedClassName">
+                    <option value="">Pick one</option>
+                    @foreach (var selectedClass in Model.Classes)
+                    {
+                        <option value="@selectedClass.Name">@selectedClass.Name</option>
+                    }
+                </select>
+                <button type="submit" class="btn btn-primary">Change Group</button>
+            </div>
+
+        </div>
+
+
+
+
+    </form>
+}
+<hr>
+
+<form class="form-horizontal" method="post" asp-page-handler="OnPost" enctype="multipart/form-data">
+    <input hidden asp-for="SelectedStudent.StudentID" />
+    <input hidden asp-for="SelectedStudent.ClassID" />
+    <input hidden asp-for="SelectedStudent.Photopath" />
+
+    <div asp-validation-summary="All" class="text-danger">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SelectedStudent.Name" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedStudent.Name" class="form-control" placeholder="Name">
+            <span asp-validation-for="SelectedStudent.Name" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="SelectedStudent.Email" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedStudent.Email" class="form-control" placeholder="Email">
+            <span asp-validation-for="SelectedStudent.Email" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="SelectedStudent.CNP" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedStudent.CNP" class="form-control" placeholder="CNP">
+            <span asp-validation-for="SelectedStudent.CNP" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="SelectedStudent.PhoneNumber" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedStudent.PhoneNumber" class="form-control" placeholder="Phone-number">
+            <span asp-validation-for="SelectedStudent.PhoneNumber" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="SelectedStudent.Address" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="SelectedStudent.Address" class="form-control" placeholder="Address">
+            <span asp-validation-for="SelectedStudent.Address" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Photo" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="Photo" class="custom-file-input form-control">
+            <label class="custom-file-label">Click here to change photo</label>
+        </div>
+    </div>
+
+    @*Display the existing photo*@
+    <div class="form-group">
+        <img class="imageThumbnail" src="@photopath" asp-append-version="true" style="margin-left: auto; margin-right: auto; display: block;">
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a asp-page="/Students/Index" class="btn btn-default"> Cancel</a>
+        </div>
+    </div>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+        <script>
+            $(document).ready(function () {
+                $('.custom-file-input').on("change", function () {
+                    var fileName = $(this).val().split("\\").pop();
+                    $(this).next('.custom-file-label').html(fileName);
+                });
+            });
+        </script>
+    }
+
+</form>
+

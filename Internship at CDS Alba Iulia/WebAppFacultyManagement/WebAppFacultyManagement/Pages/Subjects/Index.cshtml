@@ -1,0 +1,45 @@
+﻿@page "/subjects"
+@model WebAppFacultyManagement.Pages.Subjects.IndexModel
+@{
+    ViewData["Title"] = "Subjects";
+}
+
+
+<h2>Subjects</h2>
+<div class="list-group">
+    @foreach (var subject in Model.Subjects)
+    {
+        var photopath = "~/images/" + (subject.Photopath ?? "noimagething.png");
+        float agerageGrade = Model.GetAverageGradeForSubj(subject.SubjectID);
+        <div class="panel panel-info" style="width:1000px;">
+            <div class="panel-heading">
+                <h3 class="panel-title">@subject.Name - Average grade: @agerageGrade</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img style="width:400px;" src="@photopath" asp-append-version="true" />
+                    </div>
+                    <div class="col-md-6">
+                        <p style="margin: auto;width: 50%;text-align: justify;">
+                            @subject.Description
+                        </p>
+                        <p style="margin:auto;width:50%;">
+                            <a asp-page="/Subjects/GradeList" asp-route-id="@subject.SubjectID" class="btn btn-info" role="button">See grades</a>
+                        </p>
+                    </div>
+                </div>
+                <p></p>
+                <p>
+                    @if (Model.HasAdminRights)
+                    {
+                        <a asp-page="/Subjects/Update" asp-route-id="@subject.SubjectID" class="btn btn-primary" role="button">Change Information</a>
+                        <a asp-page="/Subjects/Delete" asp-route-id="@subject.SubjectID" class="btn btn-default" role="button">Delete</a>
+                    }
+                    
+                </p>
+            </div>
+        </div>
+    }
+</div>
+

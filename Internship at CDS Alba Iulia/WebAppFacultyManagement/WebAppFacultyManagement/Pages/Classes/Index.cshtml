@@ -1,0 +1,56 @@
+﻿@page "/groups"
+@model WebAppFacultyManagement.Pages.Classes.IndexModel
+@{
+    ViewData["Title"] = "Groups";
+}
+
+
+<h2>Groups</h2>
+<div class="list-inline">
+    @foreach (var selectedClass in Model.Classes)
+    {
+        var photopath = "~/images/" + (selectedClass.Photopath ?? "noimagething.png");
+        var teacherDisplay = "";
+        @if (selectedClass.TeacherID == 0)
+        {
+            teacherDisplay = "No Teacher assigned yet.";
+        }
+        else
+        {
+            @foreach (var teacher in Model.Teachers)
+            {
+                @if (teacher.TeacherID == selectedClass.TeacherID)
+                {
+                    teacherDisplay = teacher.Name;
+                    break;
+                }
+            }
+        }
+
+
+
+        <div class="panel panel-info" style="width:700px;">
+            <div class="panel-heading">
+                <h3 class="panel-title">@selectedClass.Name</h3>
+            </div>
+            <div class="panel-body">
+                <img style="width:650px;" src="@photopath" asp-append-version="true" />
+                <p></p>
+                <p>@selectedClass.Profile</p>
+                <p>@teacherDisplay</p>
+                <p>
+                    @if (Model.HasAdminRights)
+                    {
+                        <a asp-page="/Classes/Update" asp-route-id="@selectedClass.ClassID" class="btn btn-primary" role="button">Change Information</a>
+                        <a asp-page="/Classes/Delete" asp-route-id="@selectedClass.ClassID" class="btn btn-default" role="button">Delete</a>
+                    }
+                    <a asp-page="/Classes/StudentList" asp-route-id="@selectedClass.ClassID" class="btn btn-info" role="button">See students</a>
+                </p>
+
+            </div>
+        </div>
+    }
+    
+</div>
+
+
