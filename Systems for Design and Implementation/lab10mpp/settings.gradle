@@ -1,0 +1,5 @@
+rootProject.name = 'lab10mpp'
+include 'web'
+include 'core'
+include 'client'
+

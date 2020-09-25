@@ -1,0 +1,4 @@
+rootProject.name = 'lab12mpp'
+include 'web'
+include 'core'
+
