@@ -1,0 +1,26 @@
+'very cold';self.trap_region(-1000, -30, -20, 5)
+'cold';self.tri_region(-5, 0, 10)
+'normal';self.trap_region(5, 10, 15, 20)
+'warm';self.tri_region(15, 20, 25)
+'hot';self.trap_region(25, 30, 35, 1000)
+'dry';self.tri_region(-1000, 0, 50)
+'normal';self.tri_region(0, 50, 100)
+'wet';self.tri_region(50, 100, 1000)
+'short';self.tri_region(-1000, 0, 50);self.inverse_line(50, 0)
+'medium';self.tri_region(0, 50, 100);self.inverse_tri(0, 50, 100)
+'long';self.tri_region(50, 100, 1000);self.inverse_line(50, 100)
+{'temperature': 'very cold', 'humidity': 'wet'};{'time': 'short'}
+{'temperature': 'cold', 'humidity': 'wet'};{'time': 'short'}
+{'temperature': 'normal', 'humidity': 'wet'};{'time': 'short'}
+{'temperature': 'warm', 'humidity': 'wet'};{'time': 'short'}
+{'temperature': 'hot', 'humidity': 'wet'};{'time': 'medium'}
+{'temperature': 'very cold', 'humidity': 'normal'};{'time': 'short'}
+{'temperature': 'cold', 'humidity': 'normal'};{'time': 'medium'}
+{'temperature': 'normal', 'humidity': 'normal'};{'time': 'medium'}
+{'temperature': 'warm', 'humidity': 'normal'};{'time': 'medium'}
+{'temperature': 'hot', 'humidity': 'normal'};{'time': 'long'}
+{'temperature': 'very cold', 'humidity': 'dry'};{'time': 'medium'}
+{'temperature': 'cold', 'humidity': 'dry'};{'time': 'long'}
+{'temperature': 'normal', 'humidity': 'dry'};{'time': 'long'}
+{'temperature': 'warm', 'humidity': 'dry'};{'time': 'long'}
+{'temperature': 'hot', 'humidity': 'dry'};{'time': 'long'}

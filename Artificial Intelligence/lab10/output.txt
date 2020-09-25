@@ -1,0 +1,15 @@
+For humidity: 55 and temperature: 5 => 
+this is the OPERATING TIME for the sprinkler: 49.16666666666667
+
+For humidity: 10 and temperature: 30 => 
+this is the OPERATING TIME for the sprinkler: 84.0
+
+For humidity: 60 and temperature: 30 => 
+this is the OPERATING TIME for the sprinkler: 82.0
+
+For humidity: 75 and temperature: 20 => 
+this is the OPERATING TIME for the sprinkler: 37.5
+
+For humidity: 0 and temperature: -30 => 
+this is the OPERATING TIME for the sprinkler: 50.0
+
