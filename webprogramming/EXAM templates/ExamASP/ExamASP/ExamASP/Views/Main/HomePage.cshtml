@@ -1,0 +1,127 @@
+﻿@{
+    ViewBag.Title = "HomePage";
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HomePage</title>
+   
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            
+            $("#filter-result").hide();
+            $("#resultShowYour").hide();
+            
+            $("#buttonShowYour").click(function () {
+                $("#tableShowYour").html("");
+                $.get("/Main/ShowYour",
+                    function (data, status) {
+                        $("#resultShowYour").show();
+                        $("#tableShowYour").append(data);
+                    });
+            });
+
+            $("#addAsset-button").click(function (event) {
+                $.get('/Main/Add', {
+                    name: $("#addAsset-name").val(),
+                    description: $("#addAsset-description").val(),
+                    value: $("#addAsset-value").val(),
+                }, function (response) { $("#addAsset-result").html(response); });
+            });
+
+            $("#updateAsset-button").click(function (event) {
+                $.get('/Main/Update', {
+                    id: $("#updateAsset-id").val(),
+                    name: $("#updateAsset-name").val(),
+                    description: $("#updateAsset-description").val(),
+                    value: $("#updateAsset-value").val(),
+                }, function (response) { $("#updateAsset-result").html(response); });
+            });
+
+            
+            $("#filterInput").keyup(function (event) {
+                
+                $.get('/Main/ShowFilter', { input: $("#filterInput").val() }, function (response) {
+                    if (response != "") {
+                        $("#filter-result").hide();
+                        $("#showFilter").html("");
+                        $("#showFilter").html(response);
+                    }
+                    else {
+                        $("#showFilter").html("");
+                        $("#filter-result").show();
+                    }
+                });
+            });
+
+            
+        });
+    </script>
+</head>
+<body>
+    <p>
+        @if (Session["username"] != null)
+        {<text>Welcome @Session["username"].ToString() !</text>}
+    </p>
+
+
+
+
+
+    <input id="buttonShowYour" type="button" value="Show Your Assets" />
+    <div id="resultShowYour">These are your assets:</div>
+    <table id="tableShowYour"></table><br />
+
+    <br><br><br><br><br><br>
+    <h3>Would you like to add another asset?</h3>
+    <div id="addAssetDiv">
+        <table>
+            <tr><td>Enter name:</td><td><input type="text" id="addAsset-name"></td></tr>
+            <tr><td>Enter description: </td><td><input type="text" id="addAsset-description"></td></tr>
+            <tr><td>Enter value:  </td><td><input type="text" id="addAsset-value"></td></tr>
+            <tr><td><button type="button" id="addAsset-button">Add</button></td><td></td></tr>
+        </table>
+    </div>
+
+    <div id="addAsset-result"><p></p></div>
+    <br><br><br><br><br><br>
+
+
+
+
+    <br><br><br><br><br><br>
+    <h3>Would you like to update an asset?</h3>
+    <div id="updateAssetDiv">
+        <table>
+            <tr><td>Enter id:</td><td><input type="text" id="updateAsset-id"></td></tr>
+            <tr><td>Enter name:</td><td><input type="text" id="updateAsset-name"></td></tr>
+            <tr><td>Enter description: </td><td><input type="text" id="updateAsset-description"></td></tr>
+            <tr><td>Enter value:  </td><td><input type="text" id="updateAsset-value"></td></tr>
+            <tr><td><button type="button" id="updateAsset-button">Update</button></td><td></td></tr>
+        </table>
+    </div>
+
+    <div id="updateAsset-result"><p></p></div>
+    <br><br><br><br><br><br>
+
+    <p><b>Start typing a filter for the description in the field below:</b></p>
+    <form>
+        <p>Filter:</p> <input id="filterInput" type="text">
+    </form>
+    <h3>These are the results so far:</h3>
+    <div id="showFilter"></div>
+    <div id="filter-result"><p>No such rows!</p></div>
+
+
+    <br><br><br><br><br><br>
+
+    <a href="@Url.Action("Logout", "Logout")">
+        <input type="button" value="Log out" />
+    </a>
+
+
+</body>
+</html>

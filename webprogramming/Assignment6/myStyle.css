@@ -1,0 +1,87 @@
+.startPage{
+
+   width: 100%;
+
+
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    height: 100%;
+}
+
+.center {
+    position: absolute;
+    display: grid;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: #FFD5FA;
+    border: #FF42E8;
+    border-style: groove;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 4px 2px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #FF42E8;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover,.padd-right:hover,.padd-left:hover {
+    background-color: #FFD5FA;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.oneColumn{
+    width:700px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.pagination {
+    display:flex;
+    background-image: linear-gradient(to right, #33CCFF , #FFC0CB);
+}
+.padd-left,.padd-right{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.padd-left{
+    padding: 0px 680px 10px 30px;
+
+}
+.padd-right{
+    padding: 0px 30px 10px 715px;
+}
+

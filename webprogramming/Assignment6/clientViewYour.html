@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LoggingReport-View Yours Page</title>
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+    <script type="text/javascript" src="myJS.js"></script>
+</head>
+<body>
+
+<main>
+    <div class="topnav">
+        <a href="clientViewAll.html">All Logs</a>
+        <a href="clientViewYour.html">Your Logs</a>
+        <a href="client.html">Specific Logs</a>
+        <a href="clientDeleteYour.html">Delete Your Logs</a>
+        <a href="clientAddYour.html">Add Logs</a>
+        <a href="clientUpdateYour.html">Update Logs</a>
+    </div>
+
+    <h3>These are your logs from the database:</h3>
+    <script>showYour()</script>
+    <div id="showYour"><b></b></div>
+
+    <div class="pagination">
+        <p class="padd-left" onclick="changePageNumber(-1); showYour();">
+            Prev
+        </p>
+        <p class="padd-right" onclick="changePageNumber(1); showYour();">
+            Next
+        </p>
+    </div>
+
+</main>
+
+</body>
+</html>

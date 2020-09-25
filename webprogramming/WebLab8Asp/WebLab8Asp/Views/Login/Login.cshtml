@@ -1,0 +1,94 @@
+﻿@model WebLab8Asp.Models.User
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        table {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: blueviolet;
+            color: white;
+        }
+
+        button {
+            background-color: #FFD5FA;
+            border: #FF42E8;
+            border-style: groove;
+            padding: 15px 32px;
+            text-align: center;
+            margin: 4px 2px;
+            font-size: 13px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            font-size: 13px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FFD5FA;
+            border: #FF42E8;
+            border-style: groove;
+            padding: 10px 20px;
+            text-align: center;
+            margin: 4px 2px;
+        }
+
+
+        h3, p {
+            font-size: 17px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    </head>
+<body>
+    @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+    {
+        <h2>Login here please:</h2>
+        <table>
+            <tr>
+                <td>@Html.LabelFor(model => model.UserName)</td>
+                <td>@Html.TextBoxFor(model => model.UserName, new { placeholder = "Enter UserName" })</td>
+                <td>@Html.ValidationMessageFor(model => model.UserName)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Password)</td>
+                <td>@Html.PasswordFor(model => model.Password,new { placeholder = "Enter Password" }) </td>
+                <td>@Html.ValidationMessageFor(model => model.Password)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login" />
+                </td>
+            </tr>
+        </table>
+    }
+</body>
+</html>
+
+

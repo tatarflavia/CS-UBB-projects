@@ -1,0 +1,144 @@
+﻿@model WebLab8Asp.Models.Log
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LoggingReports-See details for Log</title>
+    <style>
+
+        table {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: blueviolet;
+            color: white;
+        }
+
+        button {
+            background-color: #FFD5FA;
+            border: #FF42E8;
+            border-style: groove;
+            padding: 15px 32px;
+            text-align: center;
+            margin: 4px 2px;
+            font-size: 13px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            font-size: 13px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FFD5FA;
+            border: #FF42E8;
+            border-style: groove;
+            padding: 10px 20px;
+            text-align: center;
+            margin: 4px 2px;
+        }
+
+
+        h3, p {
+            font-size: 17px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#deleteButton").click(function () {
+                var id =@Model.LogID;
+                var result = confirm("Want to delete?");
+                if (result == true) {
+                    $.get('/Main/DeleteLog', { input: id }, function (response) {
+                        if (response) {
+                            var link = "@Url.Action("HomePage", "Main")";
+                            window.location.href = link;
+                        }
+                        else {
+                            alert("There was a problem when deleting!");
+                        }
+                    });
+                }
+            });
+        });
+            </script>
+</head>
+<body>
+    <h2>See log details</h2>
+    @using (Html.BeginForm("UpdateLog", "Main", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td>@Html.LabelFor(model => model.LogID)</td>
+                <td>@Html.TextBoxFor(model => model.LogID, new { placeholder = Model.LogID })</td>
+
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Type)</td>
+                <td>@Html.TextBoxFor(model => model.Type, new { placeholder = Model.Type })</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Severity)</td>
+                <td>@Html.TextBoxFor(model => model.Severity, new { placeholder = Model.Severity })</td>
+                <td>@Html.ValidationMessageFor(model => model.Severity)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.LogDate)</td>
+                <td>@Html.TextBoxFor(model => model.LogDate, new { placeholder = Model.LogDate })</td>
+                <td>@Html.ValidationMessageFor(model => model.LogDate)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.UserName)</td>
+                <td>@Html.TextBoxFor(model => model.UserName, new { placeholder = Model.UserName })</td>
+
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.LogMessage)</td>
+                <td>@Html.TextBoxFor(model => model.LogMessage, new { placeholder = Model.LogMessage }) </td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Change information" />
+                </td>
+            </tr>
+        </table>
+    }
+
+
+    <input type="button" value="Delete Log" id="deleteButton">
+
+
+    <a href="@Url.Action("HomePage", "Main")">
+        <input type="button" value="Go back" />
+    </a>
+</body>
+</html>

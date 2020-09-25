@@ -1,0 +1,312 @@
+﻿
+@{
+    ViewBag.Title = "HomePage";
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowAllLogs</title>
+    <style>
+        .rows {
+        }
+
+        table {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: blueviolet;
+            color: white;
+        }
+
+        button {
+            background-color: #FFD5FA;
+            border: #FF42E8;
+            border-style: groove;
+            padding: 15px 32px;
+            text-align: center;
+            margin: 4px 2px;
+            font-size: 13px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            font-size: 13px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FFD5FA;
+            border: #FF42E8;
+            border-style: groove;
+            padding: 10px 20px;
+            text-align: center;
+            margin: 4px 2px;
+        }
+
+
+        h3, p {
+            font-size: 17px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .pagination {
+            display: flex;
+            height: 40px;
+            background-image: linear-gradient(to right, #33CCFF, #FFC0CB);
+        }
+
+        .padd-left, .padd-right {
+            font-size: 15px;
+            font-weight: bold;
+            height:40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .padd-left {
+            padding: 0px 600px 10px 30px;
+        }
+
+        .padd-right {
+            padding: 0px 30px 10px 440px;
+        }
+
+        .padd-right:hover, .padd-left:hover {
+            background-color: #FFD5FA;
+            color: black;
+          
+        }
+    </style>
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            var pageNumber = 1;
+            $("#filter-result").hide();
+            $("#resultShowYour").hide();
+
+
+            $("#buttonShowAll").click(function () {
+                pageNumber = 1;
+                $("#divShowAll").html("");
+                $.get("/Main/ShowAllLogs", { pageNumb: pageNumber },
+                    function (data, status) {
+                        $("#divShowAll").html(data);
+                    });
+            });
+
+            $("#prevShowAll").click(function () {
+                pageNumber -= 1;
+                $("#divShowAll").html("");
+                $.get("/Main/ShowAllLogs", { pageNumb: pageNumber },
+                    function (data, status) {
+                        $("#divShowAll").html(data);
+                    });
+            });
+
+            $("#nextShowAll").click(function () {
+                pageNumber += 1;
+                $("#divShowAll").html("");
+                $.get("/Main/ShowAllLogs", { pageNumb: pageNumber },
+                    function (data, status) {
+                        $("#divShowAll").html(data);
+                    });
+            });
+
+
+
+            $("#buttonShowYour").click(function () {
+                pageNumber = 1;
+                $("#tableShowYour").html("");
+                $.get("/Main/ShowYourLogs", { pageNumb: pageNumber },
+                    function (data, status) {
+                        $("#resultShowYour").show();
+                        $("#tableShowYour").append(data);
+                    });
+            });
+
+            $("#prevShowYour").click(function () {
+                pageNumber -= 1;
+                $("#tableShowYour").html("");
+                $.get("/Main/ShowYourLogs", { pageNumb: pageNumber },
+                    function (data, status) {
+                        $("#resultShowYour").show();
+                        $("#tableShowYour").append(data);
+                    });
+            });
+
+            $("#nextShowYour").click(function () {
+                pageNumber += 1;
+                $("#tableShowYour").html("");
+                $.get("/Main/ShowYourLogs", { pageNumb: pageNumber },
+                    function (data, status) {
+                        $("#resultShowYour").show();
+                        $("#tableShowYour").append(data);
+                    });
+            });
+
+
+
+            $("#filterInput").keyup(function (event) {
+                pageNumber = 1;
+                $.get('/Main/ShowFilter', { input: $("#filterInput").val(), pageNumb: pageNumber }, function (response) {
+                    if (response != "") {
+                        $("#filter-result").hide();
+                        $("#showFilter").html("");
+                        $("#showFilter").html(response);
+                    }
+                    else {
+                        $("#showFilter").html("");
+                        $("#filter-result").show();
+                    }
+                });
+            });
+
+            $("#prevShowFilter").click(function (event) {
+                pageNumber -= 1;
+                $.get('/Main/ShowFilter', { input: $("#filterInput").val(), pageNumb: pageNumber  }, function (response) {
+                    if (response != "") {
+                        $("#filter-result").hide();
+                        $("#showFilter").html("");
+                        $("#showFilter").html(response);
+                    }
+                    else {
+                        $("#showFilter").html("");
+                        $("#filter-result").show();
+                    }
+                });
+            });
+
+            $("#nextShowFilter").click(function (event) {
+                pageNumber += 1;
+                $.get('/Main/ShowFilter', { input: $("#filterInput").val(), pageNumb: pageNumber }, function (response) {
+                    if (response != "") {
+                        $("#filter-result").hide();
+                        $("#showFilter").html("");
+                        $("#showFilter").html(response);
+                    }
+                    else {
+                        $("#showFilter").html("");
+                        $("#filter-result").show();
+                    }
+                });
+            });
+
+
+
+
+            $("#tableShowYour").delegate("tr.rows", "click", function (e) {
+                $.ajax({
+                    url: '@Url.Action("GetLogByID", "Main")',
+                    type: 'GET',
+                    dataType: 'json',
+                    data: { LogID: e.target.innerHTML },
+                    success: function (log) {
+                        console.log(log);
+                        console.log(log.LogID);
+                        var link = "@Url.Action("SeeLogDetails", "Main", new {LogID = "id", Type = "typ",Severity = "sev", LogDate = "date" , UserName = "name",LogMessage="message" })";
+                        link = link.replace("id", log.LogID);
+                        link = link.replace("typ", log.Type);
+                        link = link.replace("sev", log.Severity);
+                        link = link.replace("date", log.LogDate);
+                        link = link.replace("name", log.UserName);
+                        link = link.replace("message", log.LogMessage);
+                        link = link.replace(/&amp;/g, "&");
+                        console.log(link);
+                        
+                        window.location.href = link;
+                    }
+                })
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>@if (Session["UserName"] != null)
+    {<text>Welcome @Session["UserName"].ToString() !</text>}</p>
+
+    <br><br><br><br><br><br>
+
+    <input id="buttonShowAll" type="button" value="Show All Logs" />
+    <div id="divShowAll"></div><br />
+    <div class="pagination">
+        <p class="padd-left" id="prevShowAll">
+            Prev
+        </p>
+        <p class="padd-right" id="nextShowAll">
+            Next
+        </p>
+    </div>
+    <br><br><br><br><br><br>
+
+
+    <p>Click a row in the table below to see details:</p>
+    <input id="buttonShowYour" type="button" value="Show Your Logs" />
+    <div id="resultShowYour">These are your logs:</div>
+    <table id="tableShowYour"></table><br />
+    <div class="pagination">
+        <p class="padd-left" id="prevShowYour">
+            Prev
+        </p>
+        <p class="padd-right" id="nextShowYour">
+            Next
+        </p>
+    </div>
+
+    <br><br><br><br><br><br>
+    <a href="@Url.Action("AddALog", "Main")">
+        <input type="button" value="Add log" />
+    </a>
+
+    <br><br><br><br><br><br>
+
+
+
+    <p><b>Start typing a filter for the type/severity in the field below:</b></p>
+    <form>
+        <p>Filter:</p> <input id="filterInput" type="text">
+    </form>
+    <h3>These are the results so far:</h3>
+    <div id="showFilter"></div>
+    <div id="filter-result"><p>No such rows!</p></div>
+
+    <div class="pagination">
+        <p class="padd-left" id="prevShowFilter">
+            Prev
+        </p>
+        <p class="padd-right" id="nextShowFilter">
+            Next
+        </p>
+    </div>
+    <br><br><br><br><br><br>
+
+
+
+
+    <a href="@Url.Action("Logout", "Logout")">
+        <input type="button" value="Log out" />
+    </a>
+
+
+</body>
+</html>

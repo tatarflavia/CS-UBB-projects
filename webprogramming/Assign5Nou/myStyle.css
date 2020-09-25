@@ -1,0 +1,53 @@
+.slider{
+    width: 1570px;
+    height: 397px;
+    overflow: hidden;
+    margin:0 auto;
+    padding-top: 150px;
+
+}
+
+.imgSize{
+    width: 320px;
+    height: 397px;
+}
+
+
+.slides{
+    width: 10000px;
+    display: block;
+    height: 397px;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+.slide{
+    float: left;
+    height: 397px;
+    width: 1600px;
+}
+
+
+.divInsideSlide {
+    display: flex;
+}
+
+
+
+.popUp {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* sit on top*/
+    padding-top: 75px; /* location of the box */
+    padding-left: 40%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+.popUpImage {
+    display: block;
+    width: 25%;
+}
+
