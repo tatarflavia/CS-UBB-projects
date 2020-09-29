@@ -1,0 +1,41 @@
+<body>
+<app-navigation></app-navigation>
+<div class="container w-25 mt-5 text-center text-info">
+  <br>
+  <form [formGroup]="formLogin" (ngSubmit)="onSubmit()" novalidate autocomplete="off">
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input id="username" class="form-control bg-dark text-info" formControlName="usernameControl">
+    </div>
+    <div *ngIf="formLogin.controls['usernameControl'].invalid && showRequiredMessage" class="alert alert-info">
+      <div *ngIf="formLogin.controls['usernameControl'].errors.required">
+      <span>
+        Username is required.
+      </span>
+      </div>
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input id="password" class="form-control bg-dark text-info" formControlName="passwordControl">
+    </div>
+    <br>
+    <div *ngIf="formLogin.controls['passwordControl'].invalid && showRequiredMessage" class="alert alert-info">
+      <div *ngIf="formLogin.controls['passwordControl'].errors.required">
+      <span>
+        Password is required.
+      </span>
+      </div>
+    </div>
+    <br>
+    <div *ngIf="errorMessage.length>0">
+      <span> {{errorMessage}} </span>
+      <br>
+      <br>
+    </div>
+    <button class="btn btn-outline-info" type="submit">
+      Log in
+    </button>
+  </form>
+</div>
+</body>

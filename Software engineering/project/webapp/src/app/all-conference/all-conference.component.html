@@ -1,0 +1,38 @@
+<body class="text-cyan">
+<app-navigation></app-navigation>
+<div class="container">
+  <br>
+  <h3>
+    All conferences
+  </h3>
+  <br>
+
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4" *ngFor="let conference of conferences">
+        <ng-template [ngIf]="conference.firstDay>currentDate">
+        <div class="card bg-dark text-cyan" style="height: 100%">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title">
+              {{conference.name}}
+            </h4>
+            <br>
+            <h6 class="card-subtitle mb-2 text-muted">
+              between {{conference.firstDay.toLocaleDateString()}}
+              and {{conference.lastDay.toLocaleDateString()}}
+              <br>
+              for only {{conference.participationFee}} RON
+            </h6>
+            <br>
+            <p class="card-text">
+              {{conference.callForPapers}}
+            </p>
+            <button (click)="visitPage(conference.id)" class="btn btn-outline-info mt-auto" type="button">
+              Visit conference page
+            </button>
+          </div>
+        </div>
+        </ng-template>
+      </div>
+    </div>
+</div>
+</body>

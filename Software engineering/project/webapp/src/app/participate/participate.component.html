@@ -1,0 +1,29 @@
+<body>
+    <div *ngIf = "conference">
+        <app-conference-menu [conference]="conference"></app-conference-menu>
+    </div>
+    <div *ngIf = "conference" class="container text-cyan">
+          <br>
+          <br>
+          <h3 class="text-cyan">
+                Submit Participation
+        </h3>
+        <p>Number of participants so far: {{conference.participants.length}}</p>
+      <br>
+      <form [formGroup]="formParticipate" (ngSubmit)="onSubmit()" novalidate autocomplete="off">
+        <div class="form-group">
+            <label for="fullName" class="text-cyan">Full name</label>
+            <input class="form-control bg-dark text-info" formControlName="fullName" id="fullName">
+        </div>
+        <label>Fee: {{conference.participationFee}}</label>
+        <p>The fee must be paid at the beginning of the conference at the conference location.</p>
+        <br>
+        <button class="btn btn-outline-info" type="submit">
+            Participate!
+        </button>
+      </form>
+      <br>
+      <br>
+
+    </div>
+    </body>

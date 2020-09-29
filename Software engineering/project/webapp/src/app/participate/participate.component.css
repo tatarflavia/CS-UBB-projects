@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    min-height: 100vh;
+  }
+  
+  #errorMessage {
+     text-align: justify;
+   }
+  
+  

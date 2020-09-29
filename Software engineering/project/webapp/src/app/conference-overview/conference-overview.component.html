@@ -1,0 +1,41 @@
+<body>
+<div *ngIf = "conference">
+  <app-conference-menu [conference]="conference"></app-conference-menu>
+</div>
+
+<div *ngIf="conference" class="container">
+  <h3><i>Conference overview</i></h3>
+  <table>
+    <tr>
+      <td><h1>Description</h1></td>
+      <td><p>{{conference.callForPapers}}<p></td>
+    </tr>
+    <tr>
+      <td><h1>When is it being held?</h1></td>
+      <td><p>{{conference.firstDay}}<p></td>
+    </tr>
+    <tr>
+      <td><h1>When does it end?</h1></td>
+      <td><p>{{conference.lastDay}}<p></td>
+    </tr>
+    <tr>
+      <td><h1>How much do you have to pay?</h1></td>
+      <td><p>{{conference.participationFee}}<p></td>
+    </tr>
+    <tr>
+      <td><h1>What deadlines should you know about?</h1></td>
+      <td>
+        <ol>
+          <li><p>Abstract paper submissions: {{conference.abstractDeadline}}</p></li>
+          <li><p>Bidding phase: {{conference.biddingDeadline}}</p></li>
+          <li><p>Full paper submissions: {{conference.fullPaperDeadline}}</p></li>
+          <li><p>Reviewing phase: {{conference.reviewingDeadline}}</p></li>
+        </ol>
+      </td>
+    </tr>
+
+  </table>
+</div>
+<br>
+<br>
+</body>

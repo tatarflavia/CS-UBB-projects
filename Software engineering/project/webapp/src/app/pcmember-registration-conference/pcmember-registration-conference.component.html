@@ -1,0 +1,28 @@
+<body>
+<div class="container">
+  <br>
+  <br>
+  <h3 class="text-cyan">Register Here</h3>
+  <br>
+  <form [formGroup]="formRegister" (ngSubmit)="onSubmit()" novalidate autocomplete="off">
+    <div class="form-group">
+      <label for="name" class="text-cyan">Name</label>
+      <input id="name" class="form-control bg-dark text-info" formControlName="name">
+
+      <label for="affiliation" class="text-cyan">Affiliation</label>
+      <input id="affiliation" class="form-control bg-dark text-info" formControlName="affiliation">
+
+      <label for="email" class="text-cyan">Email</label>
+      <input id="email" class="form-control bg-dark text-info" formControlName="email">
+
+      <label for="webPage" class="text-cyan">WebPage</label>
+      <input id="webPage" class="form-control bg-dark text-info" formControlName="webPage">
+    </div>
+    <br>
+    <div class="row-cols-2">
+      <button class="btn btn-outline-info" type="submit">Save</button>
+      <button class="btn btn-outline-info" (click)="goBack()">Back</button>
+    </div>
+  </form>
+</div>
+</body>

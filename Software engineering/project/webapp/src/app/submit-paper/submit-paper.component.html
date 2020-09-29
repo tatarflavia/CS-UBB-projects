@@ -1,0 +1,81 @@
+<body>
+<div *ngIf = "conference">
+  <app-conference-menu [conference]="conference"></app-conference-menu>
+</div>
+
+<div class="container">
+  <br>
+  <form [formGroup]="formPaper" novalidate autocomplete="off">
+    <div class="form-group">
+      <label for="title" class="text-cyan">Title</label>
+      <input id="title" class="form-control bg-dark text-info" formControlName="title">
+    </div>
+    <div class="form-group">
+      <label for="keywords" class="text-cyan">Keywords (separated by commas)</label>
+      <input class="form-control bg-dark text-info" formControlName="keywords" id="keywords">
+    </div>
+    <div class="form-group">
+      <label for="topics" class="text-cyan">Topics (separated by commas)</label>
+      <input class="form-control bg-dark text-info" formControlName="topics" id="topics">
+    </div>
+    <br>
+    <h5 class="text-cyan">
+      Details about you
+    </h5>
+    <div class="form-group">
+      <label for="yourName" class="text-cyan">Full name</label>
+      <input class="form-control bg-dark text-info" formControlName="yourName" id="yourName">
+    </div>
+    <div class="form-group">
+      <label for="yourAffiliation" class="text-cyan">Affiliation</label>
+      <input class="form-control bg-dark text-info" formControlName="yourAffiliation" id="yourAffiliation">
+    </div>
+    <div class="form-group">
+      <label for="yourEmail" class="text-cyan">Email address</label>
+      <input class="form-control bg-dark text-info" formControlName="yourEmail" id="yourEmail">
+    </div>
+    <br>
+
+    <div *ngFor="let author of authors">
+      <br>
+    <h5 class="text-cyan">
+      Details about author number {{author}}
+    </h5>
+    <div class="form-group">
+      <label for="name{{author}}" class="text-cyan">Full name</label>
+      <input class="form-control bg-dark text-info" formControlName="name{{author}}" id="name{{author}}">
+    </div>
+      <div class="form-group">
+        <label for="affiliation{{author}}" class="text-cyan">Affiliation</label>
+        <input class="form-control bg-dark text-info" formControlName="affiliation{{author}}" id="affiliation{{author}}">
+      </div>
+      <div class="form-group">
+        <label for="email{{author}}" class="text-cyan">Email address</label>
+        <input class="form-control bg-dark text-info" formControlName="email{{author}}" id="email{{author}}">
+      </div>
+      <div class="form-group">
+        <label for="username{{author}}" class="text-cyan">Username</label>
+        <input class="form-control bg-dark text-info" formControlName="username{{author}}" id="username{{author}}">
+      </div>
+    </div>
+    <br>
+    <button class="btn btn-outline-info" (click)="addAuthor()">
+      Add new author
+    </button>
+    <br>
+    <br>
+    <div class="form-group">
+      <label for="abstract" class="text-cyan">Upload abstract paper</label>
+      <input type="file" class="form-control-file bg-dark text-cyan" formControlName="abstract" id="abstract">
+    </div>
+    <div id="errorMessage" *ngIf="errorMessage.length>0">
+      <span class="text-cyan text-justify" style="white-space: pre-line;"> {{errorMessage}} </span>
+      <br>
+    </div>
+    <button class="btn btn-outline-info" type="submit" (click)="onSubmit()">
+      Submit paper
+    </button>
+  </form>
+  <br>
+</div>
+</body>

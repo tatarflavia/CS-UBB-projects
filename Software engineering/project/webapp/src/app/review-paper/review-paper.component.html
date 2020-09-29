@@ -1,0 +1,37 @@
+<body>
+<div *ngIf="conference">
+  <app-conference-menu [conference]="conference"></app-conference-menu>
+</div>
+
+<div class="container">
+  <br>
+  <form [formGroup]="formReview" novalidate autocomplete="off">
+    <div class="form-group">
+      <label for="paper" class="text-cyan">Select Paper to review</label>
+      <select name="paper" id="paper" formControlName="paper">
+        <option *ngFor="let paper of conference.papers" value="{{paper.id}}">{{paper.title}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="grade" class="text-cyan">Grade paper</label>
+      <input type="number" formControlName="grade" name="grade" id="grade" min="1" max="7">
+      <label class="text-cyan">( 1='strong reject', 2='reject', 3='weak reject', 4='borderline paper', 5='weak accept', 6='accept', 7='strong accept' )</label>
+    </div>
+
+    <div class="form-group">
+      <label for="review" class="text-cyan">Upload review</label>
+      <input type="file" name="review" class="form-control-file bg-dark text-cyan" formControlName="review" id="review">
+    </div>
+
+    <div id="errorMessage" *ngIf="errorMessage.length > 0">
+      <span class="text-cyan text-justify" style="white-space: pre-line;"> {{errorMessage}} </span>
+      <br>
+    </div>
+
+    <button class="btn btn-outline-info" type="submit" (click)="onSubmit()">
+      Submit review
+    </button>
+  </form>
+</div>
+</body>

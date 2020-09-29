@@ -1,0 +1,28 @@
+<body>
+<div *ngIf = "conference">
+  <app-conference-menu [conference]="conference"></app-conference-menu>
+</div>
+
+<div class="container">
+  <br>
+  <form [formGroup]="formPaper" novalidate autocomplete="off">
+    <br>
+    <div class="form-group">
+      <label for="presentation" class="text-cyan">(Re)upload presentation</label>
+      <br>
+      <br>
+      <input type="file" class="form-control-file bg-dark text-cyan" formControlName="presentation" id="presentation">
+    </div>
+    <div id="errorMessage" *ngIf="errorMessage.length>0">
+      <span class="text-cyan text-justify" style="white-space: pre-line;"> {{errorMessage}} </span>
+      <br>
+    </div>
+    <br>
+    <br>
+    <button class="btn btn-outline-info" type="submit" (click)="onSubmit()">
+      Submit presentation
+    </button>
+  </form>
+  <br>
+</div>
+</body>

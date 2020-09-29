@@ -1,0 +1,41 @@
+<body>
+<app-navigation></app-navigation>
+<div class="container w-25 mt-5 text-center text-info">
+  <br>
+  <form [formGroup]="formRegister" (ngSubmit)="onSubmit()" novalidate autocomplete="off">
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input id="username" class="form-control bg-dark text-info" formControlName="usernameControl">
+    </div>
+    <div *ngIf="formRegister.controls['usernameControl'].invalid && showRequiredMessage" class="alert alert-info">
+      <div *ngIf="formRegister.controls['usernameControl'].errors.required">
+      <span>
+        Username is required.
+      </span>
+      </div>
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input id="password" class="form-control bg-dark text-info" formControlName="passwordControl">
+    </div>
+    <br>
+    <div *ngIf="formRegister.controls['passwordControl'].invalid && showRequiredMessage" class="alert alert-info">
+      <div *ngIf="formRegister.controls['passwordControl'].errors.required">
+      <span>
+        Password is required.
+      </span>
+      </div>
+    </div>
+    <br>
+    <div *ngIf="errorMessage.length>0">
+      <span> {{errorMessage}} </span>
+      <br>
+      <br>
+    </div>
+    <button class="btn btn-outline-info" type="submit">
+      Register
+    </button>
+  </form>
+</div>
+</body>

@@ -1,0 +1,14 @@
+<div *ngIf="!userService.loggedIn(); else elseBlock">
+  <nav class="nav">
+  <a class="nav-item nav-link text-cyan" routerLink="" routerLinkActive="active">Home</a>
+  <a class="nav-item nav-link text-cyan" routerLink="/login" routerLinkActive="active">Log in</a>
+  <a class="nav-item nav-link text-cyan" routerLink="/register" routerLinkActive="active">Register</a>
+  </nav>
+</div>
+  <ng-template #elseBlock>
+    <nav class="nav">
+    <a class="nav-item nav-link text-cyan" routerLink="/all-conferences" routerLinkActive="active">All conferences</a>
+    <a class="nav-item nav-link text-cyan" routerLink="/create-conference" routerLinkActive="active">Create conference</a>
+    <a class="nav-item nav-link text-cyan" routerLink="#" routerLinkActive="active" (click)="logOut()">Log out</a>
+    </nav>
+  </ng-template>

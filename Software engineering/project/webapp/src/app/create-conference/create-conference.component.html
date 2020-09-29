@@ -1,0 +1,126 @@
+<body>
+<app-navigation></app-navigation>
+<div class="container">
+      <br>
+      <br>
+      <h3 class="text-cyan">
+        Create an awesome conference on FRISOAM!
+      </h3>
+  <br>
+  <form [formGroup]="formCreate" (ngSubmit)="onSubmit()" novalidate autocomplete="off">
+    <div class="form-group">
+      <label for="name" class="text-cyan">Conference name</label>
+      <input id="name" class="form-control bg-dark text-info" formControlName="name">
+    </div>
+    <div class="form-group">
+      <label for="callForPapers" class="text-cyan">Call for papers</label>
+      <textarea class="form-control bg-dark text-info" formControlName="callForPapers" id="callForPapers" rows="4"></textarea>
+    </div>
+
+    <div class="form-row">
+    <div class="text-cyan col-md-4 mb-3">
+      <label>Number of reviewers per paper</label>
+      <br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" formControlName="numberReviewers" name="numberReviewers" id="3reviewers" value="3">
+        <label class="form-check-label" for="3reviewers">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" formControlName="numberReviewers" name="numberReviewers" id="4reviewers" value="4">
+        <label class="form-check-label" for="4reviewers">4</label>
+      </div>
+    </div>
+      <div class="col-md-4 mb-3">
+      </div>
+    <div class="col-md-4 mb-3">
+      <label for="participationFee" class="text-cyan">Participation fee</label>
+      <input type="text" id="participationFee" formControlName="participationFee" class="form-control bg-dark text-info">
+    </div>
+    </div>
+
+    <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="firstDay" class="text-cyan">First day of the conference</label>
+      <input type="date" formControlName="firstDay" id="firstDay" class="form-control bg-dark text-info">
+    </div>
+    <div class="col-md-4 mb-3">
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="lastDay" class="text-cyan">Last day of the conference</label>
+      <input type="date" formControlName="lastDay" id="lastDay" class="form-control bg-dark text-info">
+    </div>
+    </div>
+
+    <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="abstractDeadline" class="text-cyan">Abstract paper submission deadline</label>
+      <input type="date" formControlName="abstractDeadline" id="abstractDeadline" class="form-control bg-dark text-info">
+    </div>
+    <div class="col-md-4 mb-3">
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="fullDeadline" class="text-cyan">Full paper submission deadline</label>
+      <input type="date" id="fullDeadline" formControlName="fullDeadline" class="form-control bg-dark text-info">
+    </div>
+    </div>
+
+    <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="biddingDeadline" class="text-cyan">Bidding phase deadline</label>
+      <input type="date" id="biddingDeadline" formControlName="biddingDeadline" class="form-control bg-dark text-info">
+    </div>
+    <div class="col-md-4 mb-3">
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="reviewingDeadline" class="text-cyan">Reviewing phase deadline</label>
+      <input type="date" id="reviewingDeadline" formControlName="reviewingDeadline" class="form-control bg-dark text-info">
+    </div>
+    </div>
+
+    <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="PCMembers" class="text-cyan">Program Committee members' usernames
+        <br>
+        (Write one username on a line.)</label>
+      <textarea rows="7" id="PCMembers" formControlName="PCMembers" class="form-control bg-dark text-info">
+        </textarea>
+    </div>
+    <div class="col-md-4 mb-3">
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="coChairs" class="text-cyan">Conference co-chairs' usernames
+        <br>
+        (Write one username on a line.</label>
+      <textarea rows="7" id="coChairs" formControlName="coChairs" class="form-control bg-dark text-info">
+        </textarea>
+    </div>
+  </div>
+
+    <div class="form-row">
+      <div class="col-md-4 mb-3">
+        <label for="steeringCommittee" class="text-cyan">Steering Committee members' usernames
+          <br>
+          (Write one username on a line.)</label>
+        <textarea rows="7" id="steeringCommittee" formControlName="steeringCommittee" class="form-control bg-dark text-info">
+        </textarea>
+      </div>
+      <div class="col-md-4 mb-3">
+      </div>
+      <div class="col-md-4 mb-3">
+      </div>
+    </div>
+
+    <div id="errorMessage" *ngIf="errorMessage.length>0">
+      <span class="text-cyan text-justify" style="white-space: pre-line;"> {{errorMessage}} </span>
+      <br>
+    </div>
+    <br>
+    <button class="btn btn-outline-info" type="submit">
+      Create conference
+    </button>
+  </form>
+  <br>
+  <br>
+
+</div>
+</body>
