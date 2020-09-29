@@ -1,0 +1,7 @@
+--transaction2 SOLUTION: select+delay+select(isoletion level:read commited)
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED 
+BEGIN TRAN
+SELECT * FROM Actors
+WAITFOR DELAY '00:00:15'
+SELECT * FROM Actors
+COMMIT TRAN

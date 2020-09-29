@@ -1,0 +1,10 @@
+C:\Users\Asus\Desktop\baze practic\TransactionsApp\TransactionsApp\bin\Debug\TransactionsApp.exe.config
+C:\Users\Asus\Desktop\baze practic\TransactionsApp\TransactionsApp\bin\Debug\TransactionsApp.exe
+C:\Users\Asus\Desktop\baze practic\TransactionsApp\TransactionsApp\bin\Debug\TransactionsApp.pdb
+C:\Users\Asus\Desktop\baze practic\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\baze practic\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.Form1.resources
+C:\Users\Asus\Desktop\baze practic\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.Properties.Resources.resources
+C:\Users\Asus\Desktop\baze practic\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\baze practic\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\baze practic\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.exe
+C:\Users\Asus\Desktop\baze practic\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.pdb

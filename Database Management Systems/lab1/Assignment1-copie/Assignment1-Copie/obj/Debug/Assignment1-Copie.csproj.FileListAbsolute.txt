@@ -1,0 +1,10 @@
+E:\School\Baze de date an 2 sem 2\lab2\Assignment1-copie\Assignment1-Copie\bin\Debug\Assignment1-Copie.exe.config
+E:\School\Baze de date an 2 sem 2\lab2\Assignment1-copie\Assignment1-Copie\bin\Debug\Assignment1-Copie.exe
+E:\School\Baze de date an 2 sem 2\lab2\Assignment1-copie\Assignment1-Copie\bin\Debug\Assignment1-Copie.pdb
+E:\School\Baze de date an 2 sem 2\lab2\Assignment1-copie\Assignment1-Copie\obj\Debug\Assignment1-Copie.csprojAssemblyReference.cache
+E:\School\Baze de date an 2 sem 2\lab2\Assignment1-copie\Assignment1-Copie\obj\Debug\Assignment1.Form1.resources
+E:\School\Baze de date an 2 sem 2\lab2\Assignment1-copie\Assignment1-Copie\obj\Debug\Assignment1.Properties.Resources.resources
+E:\School\Baze de date an 2 sem 2\lab2\Assignment1-copie\Assignment1-Copie\obj\Debug\Assignment1-Copie.csproj.GenerateResource.cache
+E:\School\Baze de date an 2 sem 2\lab2\Assignment1-copie\Assignment1-Copie\obj\Debug\Assignment1-Copie.csproj.CoreCompileInputs.cache
+E:\School\Baze de date an 2 sem 2\lab2\Assignment1-copie\Assignment1-Copie\obj\Debug\Assignment1-Copie.exe
+E:\School\Baze de date an 2 sem 2\lab2\Assignment1-copie\Assignment1-Copie\obj\Debug\Assignment1-Copie.pdb
