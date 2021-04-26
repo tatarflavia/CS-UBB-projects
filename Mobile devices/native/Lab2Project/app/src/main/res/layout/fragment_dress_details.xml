@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp">
+
+        <data>
+                <variable
+                    name="selectedDress"
+                    type="com.example.lab2project.domain.Dress" />
+        </data>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/textViewDressCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:text="@string/dress_code"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/dressName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:text="@string/dress_name"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/dressSize"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:text="@string/dress_size"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/dressColour"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:text="@string/dress_colour"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/dressPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:text="@string/dress_price"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/dressTailor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:text="@string/dress_tailoring_time"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/dressQuantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:text="@string/dress_quantity"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/dressDesc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:text="@string/dress_desc"
+                            android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="348dp"
+                            android:layout_marginEnd="8dp"
+                            android:src="@drawable/dress1" />
+                        <LinearLayout
+                            android:id="@+id/buttons"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+                                <Button
+                                    android:id="@+id/buttonGoBack"
+                                    android:theme="@style/AppTheme.ButtonBlack"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="@string/go_back"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:layout_margin="10dp"/>
+
+                                <Button
+                                    android:id="@+id/buttonUpdateDress"
+                                    android:theme="@style/AppTheme.ButtonBlue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="@string/update"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:layout_margin="10dp"/>
+
+                                <Button
+                                    android:id="@+id/buttonDeleteDress"
+                                    android:theme="@style/AppTheme.ButtonPink"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="@string/delete"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:layout_margin="10dp"/>
+                </LinearLayout>
+
+
+        </LinearLayout>
+        </LinearLayout>
+</layout>
+

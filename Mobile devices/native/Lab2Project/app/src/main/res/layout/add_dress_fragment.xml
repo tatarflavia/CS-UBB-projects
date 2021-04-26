@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddDressFragment"
+    android:scrollbars="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/TextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/place_the_dress_info_below"
+            android:textSize="10pt"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/EditTextDressCode"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:autofillHints="Dress code"
+            android:hint="@string/dress_code"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/EditTextDressName"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:autofillHints="Dress name"
+            android:hint="@string/dress_name"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/EditTextDressSize"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:layout_width="fill_parent"
+            android:autofillHints="Dress size"
+            android:hint="@string/dress_size"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/EditTextDressPrice"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:layout_width="fill_parent"
+            android:autofillHints="Dress price"
+            android:hint="@string/dress_price"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/EditTextDressColour"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:autofillHints="Dress colour"
+            android:hint="@string/dress_colour"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/EditTextDressQuantity"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:layout_width="fill_parent"
+            android:autofillHints="Dress quantity"
+            android:hint="@string/dress_quantity"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/EditTextDressTailoringTime"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:autofillHints="Tailoring time"
+            android:hint="@string/dress_tailoring_time"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/EditTextDressDesc"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:layout_width="fill_parent"
+            android:autofillHints="Dress description"
+            android:hint="@string/dress_desc"
+            >
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:theme="@style/AppTheme.ButtonBlack"
+                android:id="@+id/ButtonCancelAdd"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancel"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonSaveDress"
+                android:layout_margin="10dp"
+                android:theme="@style/AppTheme.ButtonPink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/save"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

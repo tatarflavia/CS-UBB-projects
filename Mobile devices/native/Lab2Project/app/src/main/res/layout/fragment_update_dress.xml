@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.UpdateDressFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:layout_column="1"
+    android:layout_margin="10dp">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:stretchColumns="0">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="188dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/place_the_dress_info_below"
+                    android:textSize="17sp"></TextView>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="98dp"
+                    android:text="@string/dress_code"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/dressCode"
+
+                    android:hint="@string/dress_code"
+                    android:textStyle="bold"
+                    android:autofillHints="Dress Code"
+                    android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/dress_name"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/dressName"
+                    android:layout_marginStart="2dp"
+                    android:hint="@string/dress_name"
+                    android:textStyle="bold"
+                    android:autofillHints="Dress Name"
+                    android:inputType="text" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/dress_size"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/dressSize"
+                    android:layout_marginStart="2dp"
+                    android:hint="@string/dress_size"
+                    android:textStyle="bold"
+                    android:autofillHints="Dress Size"
+                    android:inputType="numberSigned" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/dress_price"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/dressPrice"
+                    android:layout_marginStart="2dp"
+                    android:hint="@string/dress_price"
+                    android:textStyle="bold"
+                    android:autofillHints="Dress Price"
+                    android:inputType="numberSigned" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/dress_colour"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/dressColour"
+                    android:layout_marginStart="2dp"
+                    android:hint="@string/dress_colour"
+                    android:textStyle="bold"
+                    android:autofillHints="Dress Colour"
+                    android:inputType="text" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/dress_quantity"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/dressQuantity"
+                    android:layout_marginStart="2dp"
+                    android:hint="@string/dress_quantity"
+                    android:textStyle="bold"
+                    android:autofillHints="Dress Quantity"
+                    android:inputType="numberSigned" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/dress_tailoring_time"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/dressTailor"
+                    android:layout_marginStart="2dp"
+                    android:hint="@string/dress_tailoring_time"
+                    android:textStyle="bold"
+                    android:autofillHints="Tailoring Time"
+                    android:inputType="text" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/dress_desc"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/dressDesc"
+                    android:layout_marginStart="2dp"
+                    android:hint="@string/dress_desc"
+                    android:textStyle="bold"
+                    android:autofillHints="Dress Description"
+                    android:inputType="textMultiLine"
+                    android:lines="3"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/ButtonUpdateDress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/save"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.ButtonPink" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <Button
+            android:id="@+id/ButtonCancelUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/cancel"
+            android:textStyle="bold"
+            android:theme="@style/AppTheme.ButtonBlack" />
+
+        </TableRow>
+</TableLayout>
+</ScrollView>

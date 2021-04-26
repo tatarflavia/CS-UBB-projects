@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navGraphID"
+    app:startDestination="@id/dressListFragment">
+
+    <fragment
+        android:id="@+id/dressListFragment"
+        android:name="com.example.lab2project.fragments.DressListFragment"
+        android:label="List of dresses"
+        tools:layout="@layout/fragment_dress_list" >
+        <action
+            android:id="@+id/action_dressListFragment_to_addDressFragment"
+            app:destination="@id/addDressFragment" />
+        <action
+            android:id="@+id/action_dressListFragment_to_dressDetailsFragment"
+            app:destination="@id/dressDetailsFragment" >
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/dressDetailsFragment"
+        android:name="com.example.lab2project.fragments.DressDetailsFragment"
+        android:label="Dress Details"
+        tools:layout="@layout/fragment_dress_details">
+        <argument
+            android:name="dressID"
+
+            />
+        <action
+            android:id="@+id/action_dressDetailsFragment_to_dressListFragment"
+            app:destination="@id/dressListFragment" />
+        <action
+            android:id="@+id/action_dressDetailsFragment_to_deleteDressFragment"
+            app:destination="@id/deleteDressFragment" />
+        <action
+            android:id="@+id/action_dressDetailsFragment_to_updateDressFragment"
+            app:destination="@id/updateDressFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDressFragment"
+        android:name="com.example.lab2project.fragments.AddDressFragment"
+        android:label="Add a dress"
+        tools:layout="@layout/add_dress_fragment" >
+
+        <action
+            android:id="@+id/action_addDressFragment_to_dressListFragment"
+            app:destination="@id/dressListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deleteDressFragment"
+        android:name="com.example.lab2project.fragments.DeleteDressFragment"
+        android:label="fragment_delete_dress"
+        tools:layout="@layout/fragment_delete_dress" >
+        <action
+            android:id="@+id/action_deleteDressFragment_to_dressListFragment"
+            app:destination="@id/dressListFragment" />
+        <argument
+            android:name="dressID"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/updateDressFragment"
+        android:name="com.example.lab2project.fragments.UpdateDressFragment"
+        android:label="fragment_update_dress"
+        tools:layout="@layout/fragment_update_dress" >
+        <action
+            android:id="@+id/action_updateDressFragment_to_dressListFragment"
+            app:destination="@id/dressListFragment" />
+        <argument
+            android:name="dressID"
+
+            />
+    </fragment>
+</navigation>
