@@ -12578,11 +12578,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\School\\practica\\WebAppFacultyManagement\\WebAppFacultyManagement\\WebAppFacultyManagement.csproj",
+      "projectUniqueName": "E:\\School\\Github repository University\\CS-UBB-projects\\Internship at CDS Alba Iulia\\WebAppFacultyManagement\\WebAppFacultyManagement\\WebAppFacultyManagement.csproj",
       "projectName": "WebAppFacultyManagement",
-      "projectPath": "E:\\School\\practica\\WebAppFacultyManagement\\WebAppFacultyManagement\\WebAppFacultyManagement.csproj",
+      "projectPath": "E:\\School\\Github repository University\\CS-UBB-projects\\Internship at CDS Alba Iulia\\WebAppFacultyManagement\\WebAppFacultyManagement\\WebAppFacultyManagement.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "E:\\School\\practica\\WebAppFacultyManagement\\WebAppFacultyManagement\\obj\\",
+      "outputPath": "E:\\School\\Github repository University\\CS-UBB-projects\\Internship at CDS Alba Iulia\\WebAppFacultyManagement\\WebAppFacultyManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12601,11 +12601,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\School\\practica\\WebAppFacultyManagement\\WebAppFacultyManagement.Models\\WebAppFacultyManagement.Models.csproj": {
-              "projectPath": "E:\\School\\practica\\WebAppFacultyManagement\\WebAppFacultyManagement.Models\\WebAppFacultyManagement.Models.csproj"
+            "E:\\School\\Github repository University\\CS-UBB-projects\\Internship at CDS Alba Iulia\\WebAppFacultyManagement\\WebAppFacultyManagement.Models\\WebAppFacultyManagement.Models.csproj": {
+              "projectPath": "E:\\School\\Github repository University\\CS-UBB-projects\\Internship at CDS Alba Iulia\\WebAppFacultyManagement\\WebAppFacultyManagement.Models\\WebAppFacultyManagement.Models.csproj"
             },
-            "E:\\School\\practica\\WebAppFacultyManagement\\WebAppFacultyManagement.Services\\WebAppFacultyManagement.Services.csproj": {
-              "projectPath": "E:\\School\\practica\\WebAppFacultyManagement\\WebAppFacultyManagement.Services\\WebAppFacultyManagement.Services.csproj"
+            "E:\\School\\Github repository University\\CS-UBB-projects\\Internship at CDS Alba Iulia\\WebAppFacultyManagement\\WebAppFacultyManagement.Services\\WebAppFacultyManagement.Services.csproj": {
+              "projectPath": "E:\\School\\Github repository University\\CS-UBB-projects\\Internship at CDS Alba Iulia\\WebAppFacultyManagement\\WebAppFacultyManagement.Services\\WebAppFacultyManagement.Services.csproj"
             }
           }
         }

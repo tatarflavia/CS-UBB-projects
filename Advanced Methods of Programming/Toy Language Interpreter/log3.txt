@@ -1,0 +1,638 @@
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))), VarDeclStmt(StringType varf)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))), VarDeclStmt(StringType varf)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))))], 
+SymbolTable={varf=StringVal()}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))))], 
+SymbolTable={varf=StringVal()}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))), varf=ValueExp(StringVal(test.txt))], 
+SymbolTable={varf=StringVal()}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))), varf=ValueExp(StringVal(test.txt))], 
+SymbolTable={varf=StringVal()}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))), OpenRFile(exp=VarExp(StrId='varf))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))), OpenRFile(exp=VarExp(StrId='varf))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))), VarDeclStmt(IntType varc)], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))), VarDeclStmt(IntType varc)], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))), ReadFile(exp=VarExp(StrId='varf), var_name=varc)], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))), ReadFile(exp=VarExp(StrId='varf), var_name=varc)], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=6
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))), print(VarExp(StrId='varc))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))), VarDeclStmt(StringType varf)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))), VarDeclStmt(StringType varf)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))))], 
+SymbolTable={varf=StringVal()}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))))], 
+SymbolTable={varf=StringVal()}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))), varf=ValueExp(StringVal(test.txt))], 
+SymbolTable={varf=StringVal()}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))), varf=ValueExp(StringVal(test.txt))], 
+SymbolTable={varf=StringVal()}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))), OpenRFile(exp=VarExp(StrId='varf))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))), OpenRFile(exp=VarExp(StrId='varf))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))))], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))), VarDeclStmt(IntType varc)], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))), VarDeclStmt(IntType varc)], 
+SymbolTable={varf=StringVal(test.txt)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))), ReadFile(exp=VarExp(StrId='varf), var_name=varc)], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))), ReadFile(exp=VarExp(StrId='varf), var_name=varc)], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(0)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))), print(VarExp(StrId='varc))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))), print(VarExp(StrId='varc))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15)], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15)], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))), ReadFile(exp=VarExp(StrId='varf), var_name=varc)], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15)], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))), ReadFile(exp=VarExp(StrId='varf), var_name=varc)], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15)], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15)], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf)))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15)], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[CloseRFile(exp=VarExp(StrId='varf)), print(VarExp(StrId='varc))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15)], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[CloseRFile(exp=VarExp(StrId='varf)), print(VarExp(StrId='varc))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15)], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[CloseRFile(exp=VarExp(StrId='varf))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15), Int(15)], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[CloseRFile(exp=VarExp(StrId='varf))], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15), Int(15)], 
+FileTable={StringVal(test.txt)=java.io.BufferedReader@2e7e9f95}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15), Int(15)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15), Int(15)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={varf=StringVal(test.txt), varc=Int(15)}, 
+Out=[Int(15), Int(15)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(StringType varf);(varf=ValueExp(StringVal(test.txt));(OpenRFile(exp=VarExp(StrId='varf));(VarDeclStmt(IntType varc);(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));(ReadFile(exp=VarExp(StrId='varf), var_name=varc);(print(VarExp(StrId='varc));CloseRFile(exp=VarExp(StrId='varf))))))))))}
+
+

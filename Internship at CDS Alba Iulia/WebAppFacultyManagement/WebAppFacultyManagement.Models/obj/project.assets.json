@@ -4118,11 +4118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\School\\practica\\WebAppFacultyManagement\\WebAppFacultyManagement.Models\\WebAppFacultyManagement.Models.csproj",
+      "projectUniqueName": "E:\\School\\Github repository University\\CS-UBB-projects\\Internship at CDS Alba Iulia\\WebAppFacultyManagement\\WebAppFacultyManagement.Models\\WebAppFacultyManagement.Models.csproj",
       "projectName": "WebAppFacultyManagement.Models",
-      "projectPath": "E:\\School\\practica\\WebAppFacultyManagement\\WebAppFacultyManagement.Models\\WebAppFacultyManagement.Models.csproj",
+      "projectPath": "E:\\School\\Github repository University\\CS-UBB-projects\\Internship at CDS Alba Iulia\\WebAppFacultyManagement\\WebAppFacultyManagement.Models\\WebAppFacultyManagement.Models.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "E:\\School\\practica\\WebAppFacultyManagement\\WebAppFacultyManagement.Models\\obj\\",
+      "outputPath": "E:\\School\\Github repository University\\CS-UBB-projects\\Internship at CDS Alba Iulia\\WebAppFacultyManagement\\WebAppFacultyManagement.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

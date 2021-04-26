@@ -1,0 +1,1166 @@
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))), VarDeclStmt(IntType a)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))), VarDeclStmt(IntType a)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))))], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))))], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))), VarDeclStmt(IntType b)], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))), VarDeclStmt(IntType b)], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))), VarDeclStmt(IntType c)], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))), VarDeclStmt(IntType c)], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))), a=ValueExp(Int(1))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))), a=ValueExp(Int(1))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))), b=ValueExp(Int(2))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))), b=ValueExp(Int(2))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))}], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))}], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), IF(VarExp(StrId='a)) THEN(c=ValueExp(Int(100)))ELSE(c=ValueExp(Int(200)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), IF(VarExp(StrId='a)) THEN(c=ValueExp(Int(100)))ELSE(c=ValueExp(Int(200)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))), print(VarExp(StrId='c))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))), print(VarExp(StrId='c))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[Int(0)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[Int(0)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c)), SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))}], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[Int(0)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c)), SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))}], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[Int(0)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c)), IF(ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2)))) THEN(c=ValueExp(Int(100)))ELSE(c=ValueExp(Int(200)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[Int(0)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c)), IF(ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2)))) THEN(c=ValueExp(Int(100)))ELSE(c=ValueExp(Int(200)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[Int(0)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[Int(0)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[Int(0)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[Int(0), Int(0)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))), VarDeclStmt(IntType a)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))), VarDeclStmt(IntType a)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))))], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))))], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))), VarDeclStmt(IntType b)], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))), VarDeclStmt(IntType b)], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))), VarDeclStmt(IntType c)], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))), VarDeclStmt(IntType c)], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))), a=ValueExp(Int(1))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))), a=ValueExp(Int(1))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))), b=ValueExp(Int(2))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))), b=ValueExp(Int(2))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))}], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))}], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), IF(VarExp(StrId='a)) THEN(c=ValueExp(Int(100)))ELSE(c=ValueExp(Int(200)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), IF(VarExp(StrId='a)) THEN(c=ValueExp(Int(100)))ELSE(c=ValueExp(Int(200)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))), VarDeclStmt(IntType a)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))), VarDeclStmt(IntType a)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))))], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))))], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))), VarDeclStmt(IntType b)], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))), VarDeclStmt(IntType b)], 
+SymbolTable={a=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))), VarDeclStmt(IntType c)], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))), VarDeclStmt(IntType c)], 
+SymbolTable={a=Int(0), b=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))), a=ValueExp(Int(1))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))), a=ValueExp(Int(1))], 
+SymbolTable={a=Int(0), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))), b=ValueExp(Int(2))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))), b=ValueExp(Int(2))], 
+SymbolTable={a=Int(1), b=Int(0), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))}], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))}], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), IF(RelExp(VarExp(StrId='a) 4 ValueExp(Int(0)))) THEN(c=ValueExp(Int(100)))ELSE(c=ValueExp(Int(200)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), IF(RelExp(VarExp(StrId='a) 4 ValueExp(Int(0)))) THEN(c=ValueExp(Int(100)))ELSE(c=ValueExp(Int(200)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), c=ValueExp(Int(100))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))), c=ValueExp(Int(100))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))), print(VarExp(StrId='c))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))), print(VarExp(StrId='c))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[Int(100)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[Int(100)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c)), SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))}], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[Int(100)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c)), SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))}], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[Int(100)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c)), IF(RelExp(ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))) 4 ValueExp(Int(0)))) THEN(c=ValueExp(Int(100)))ELSE(c=ValueExp(Int(200)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[Int(100)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c)), IF(RelExp(ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))) 4 ValueExp(Int(0)))) THEN(c=ValueExp(Int(100)))ELSE(c=ValueExp(Int(200)))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[Int(100)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c)), c=ValueExp(Int(200))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[Int(100)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c)), c=ValueExp(Int(200))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(100)}, 
+Out=[Int(100)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(200)}, 
+Out=[Int(100)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(VarExp(StrId='c))], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(200)}, 
+Out=[Int(100)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=Int(1), b=Int(2), c=Int(200)}, 
+Out=[Int(100), Int(200)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType a);(VarDeclStmt(IntType b);(VarDeclStmt(IntType c);(a=ValueExp(Int(1));(b=ValueExp(Int(2));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=VarExp(StrId='a), exp2=ValueExp(Int(100))};(print(VarExp(StrId='c));(SwitchStatements{v=VarExp(StrId='c)exp=ValueExp(Int(200)), exp1=ArithExp(VarExp(StrId='b) 2 ValueExp(Int(2))), exp2=ValueExp(Int(100))};print(VarExp(StrId='c))))))))))}
+
+

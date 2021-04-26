@@ -1,0 +1,1364 @@
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))), VarDeclStmt(Ref(Ref(IntType)) a)], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))), VarDeclStmt(Ref(Ref(IntType)) a)], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))), new(var_name='a', exp=VarExp(StrId='v))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))), new(var_name='a', exp=VarExp(StrId='v))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))), print(readHeap(exp=VarExp(StrId='v)))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))), print(readHeap(exp=VarExp(StrId='v)))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))), VarDeclStmt(Ref(Ref(IntType)) a)], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))), VarDeclStmt(Ref(Ref(IntType)) a)], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))), new(var_name='a', exp=VarExp(StrId='v))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))), new(var_name='a', exp=VarExp(StrId='v))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))), print(readHeap(exp=VarExp(StrId='v)))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))), print(readHeap(exp=VarExp(StrId='v)))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))), VarDeclStmt(Ref(Ref(IntType)) a)], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))), VarDeclStmt(Ref(Ref(IntType)) a)], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))), new(var_name='a', exp=VarExp(StrId='v))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))), new(var_name='a', exp=VarExp(StrId='v))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))), print(readHeap(exp=VarExp(StrId='v)))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))), print(readHeap(exp=VarExp(StrId='v)))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=2
+ExecutionStack=[(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=2
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=2
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=2
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=2
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=2
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=2
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=2
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))), VarDeclStmt(Ref(IntType) v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))), new(var_name='v', exp=ValueExp(Int(20)))], 
+SymbolTable={v=RefVal(0, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))), VarDeclStmt(Ref(Ref(IntType)) a)], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))), VarDeclStmt(Ref(Ref(IntType)) a)], 
+SymbolTable={v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))), new(var_name='a', exp=VarExp(StrId='v))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))), new(var_name='a', exp=VarExp(StrId='v))], 
+SymbolTable={a=RefVal(0, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))), print(readHeap(exp=VarExp(StrId='v)))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))), print(readHeap(exp=VarExp(StrId='v)))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5))))], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=3
+ExecutionStack=[], 
+SymbolTable={a=RefVal(2, Ref(IntType)), v=RefVal(1, IntType)}, 
+Out=[Int(20), Int(25)], 
+FileTable={}, 
+HeapTable={1=Int(20), 2=RefVal(1, IntType)}, 
+OriginalProgram=(VarDeclStmt(Ref(IntType) v);(new(var_name='v', exp=ValueExp(Int(20)));(VarDeclStmt(Ref(Ref(IntType)) a);(new(var_name='a', exp=VarExp(StrId='v));(print(readHeap(exp=VarExp(StrId='v)));print(ArithExp(readHeap(exp=readHeap(exp=VarExp(StrId='a))) 1 ValueExp(Int(5)))))))))}
+
+

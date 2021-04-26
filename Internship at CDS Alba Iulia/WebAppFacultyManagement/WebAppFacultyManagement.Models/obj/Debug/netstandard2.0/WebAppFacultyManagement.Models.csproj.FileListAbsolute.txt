@@ -7,3 +7,12 @@ E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Models\obj\De
 E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Models\obj\Debug\netstandard2.0\WebAppFacultyManagement.Models.AssemblyInfo.cs
 E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Models\obj\Debug\netstandard2.0\WebAppFacultyManagement.Models.dll
 E:\School\practica\WebAppFacultyManagement\WebAppFacultyManagement.Models\obj\Debug\netstandard2.0\WebAppFacultyManagement.Models.pdb
+E:\School\Github repository University\CS-UBB-projects\Internship at CDS Alba Iulia\WebAppFacultyManagement\WebAppFacultyManagement.Models\bin\Debug\netstandard2.0\WebAppFacultyManagement.Models.deps.json
+E:\School\Github repository University\CS-UBB-projects\Internship at CDS Alba Iulia\WebAppFacultyManagement\WebAppFacultyManagement.Models\bin\Debug\netstandard2.0\WebAppFacultyManagement.Models.dll
+E:\School\Github repository University\CS-UBB-projects\Internship at CDS Alba Iulia\WebAppFacultyManagement\WebAppFacultyManagement.Models\bin\Debug\netstandard2.0\WebAppFacultyManagement.Models.pdb
+E:\School\Github repository University\CS-UBB-projects\Internship at CDS Alba Iulia\WebAppFacultyManagement\WebAppFacultyManagement.Models\obj\Debug\netstandard2.0\WebAppFacultyManagement.Models.csprojAssemblyReference.cache
+E:\School\Github repository University\CS-UBB-projects\Internship at CDS Alba Iulia\WebAppFacultyManagement\WebAppFacultyManagement.Models\obj\Debug\netstandard2.0\WebAppFacultyManagement.Models.csproj.CoreCompileInputs.cache
+E:\School\Github repository University\CS-UBB-projects\Internship at CDS Alba Iulia\WebAppFacultyManagement\WebAppFacultyManagement.Models\obj\Debug\netstandard2.0\WebAppFacultyManagement.Models.AssemblyInfoInputs.cache
+E:\School\Github repository University\CS-UBB-projects\Internship at CDS Alba Iulia\WebAppFacultyManagement\WebAppFacultyManagement.Models\obj\Debug\netstandard2.0\WebAppFacultyManagement.Models.AssemblyInfo.cs
+E:\School\Github repository University\CS-UBB-projects\Internship at CDS Alba Iulia\WebAppFacultyManagement\WebAppFacultyManagement.Models\obj\Debug\netstandard2.0\WebAppFacultyManagement.Models.dll
+E:\School\Github repository University\CS-UBB-projects\Internship at CDS Alba Iulia\WebAppFacultyManagement\WebAppFacultyManagement.Models\obj\Debug\netstandard2.0\WebAppFacultyManagement.Models.pdb

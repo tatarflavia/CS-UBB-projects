@@ -1,0 +1,814 @@
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))), VarDeclStmt(IntType v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))), VarDeclStmt(IntType v)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10))))))], 
+SymbolTable={v=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10))))))], 
+SymbolTable={v=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10))))), v=ValueExp(Int(20))], 
+SymbolTable={v=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10))))), v=ValueExp(Int(20))], 
+SymbolTable={v=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))], 
+SymbolTable={v=Int(20)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))], 
+SymbolTable={v=Int(20)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(10))], 
+SymbolTable={v=Int(20)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(10))], 
+SymbolTable={v=Int(20)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(10)));wait(Int(9)))], 
+SymbolTable={v=Int(20)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(10)));wait(Int(9)))], 
+SymbolTable={v=Int(20)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(9)), print(ValueExp(Int(10)))], 
+SymbolTable={v=Int(20)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(9)), print(ValueExp(Int(10)))], 
+SymbolTable={v=Int(20)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(9))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(9))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(9)));wait(Int(8)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(9)));wait(Int(8)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(8)), print(ValueExp(Int(9)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(8)), print(ValueExp(Int(9)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(8))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(8))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(8)));wait(Int(7)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(8)));wait(Int(7)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(7)), print(ValueExp(Int(8)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(7)), print(ValueExp(Int(8)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(7))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(7))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(7)));wait(Int(6)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(7)));wait(Int(6)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(6)), print(ValueExp(Int(7)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(6)), print(ValueExp(Int(7)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(6))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(6))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(6)));wait(Int(5)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(6)));wait(Int(5)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(5)), print(ValueExp(Int(6)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(5)), print(ValueExp(Int(6)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(5))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(5))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(5)));wait(Int(4)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(5)));wait(Int(4)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(4)), print(ValueExp(Int(5)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(4)), print(ValueExp(Int(5)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(4))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(4))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(4)));wait(Int(3)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(4)));wait(Int(3)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(3)), print(ValueExp(Int(4)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(3)), print(ValueExp(Int(4)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(3))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(3))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(3)));wait(Int(2)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(3)));wait(Int(2)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(2)), print(ValueExp(Int(3)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(2)), print(ValueExp(Int(3)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(2))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(2))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(2)));wait(Int(1)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(2)));wait(Int(1)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(1)), print(ValueExp(Int(2)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(1)), print(ValueExp(Int(2)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(1))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(1))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(1)));wait(Int(0)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), (print(ValueExp(Int(1)));wait(Int(0)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(0)), print(ValueExp(Int(1)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(0)), print(ValueExp(Int(1)))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(0))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2), Int(1)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))), wait(Int(0))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2), Int(1)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10))))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2), Int(1)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10))))], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2), Int(1)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={v=Int(20)}, 
+Out=[Int(10), Int(9), Int(8), Int(7), Int(6), Int(5), Int(4), Int(3), Int(2), Int(1), Int(200)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v);(v=ValueExp(Int(20));(wait(Int(10));print(ArithExp(VarExp(StrId='v) 3 ValueExp(Int(10)))))))}
+
+

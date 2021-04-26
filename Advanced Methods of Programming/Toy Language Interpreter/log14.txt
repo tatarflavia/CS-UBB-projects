@@ -1,0 +1,220 @@
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))), VarDeclStmt(IntType v1)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))), VarDeclStmt(IntType v1)], 
+SymbolTable={}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1))))))], 
+SymbolTable={v1=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1))))))], 
+SymbolTable={v1=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1))))), VarDeclStmt(IntType v2)], 
+SymbolTable={v1=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1))))), VarDeclStmt(IntType v2)], 
+SymbolTable={v1=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))], 
+SymbolTable={v1=Int(0), v2=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))], 
+SymbolTable={v1=Int(0), v2=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))), v1=ValueExp(Int(2))], 
+SymbolTable={v1=Int(0), v2=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))), v1=ValueExp(Int(2))], 
+SymbolTable={v1=Int(0), v2=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1))))], 
+SymbolTable={v1=Int(2), v2=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1))))], 
+SymbolTable={v1=Int(2), v2=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1))), v2=ValueExp(Int(3))], 
+SymbolTable={v1=Int(2), v2=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1))), v2=ValueExp(Int(3))], 
+SymbolTable={v1=Int(2), v2=Int(0)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))], 
+SymbolTable={v1=Int(2), v2=Int(3)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))], 
+SymbolTable={v1=Int(2), v2=Int(3)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(MUL(VarExp(StrId='v1),VarExp(StrId='v2)))], 
+SymbolTable={v1=Int(2), v2=Int(3)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[print(MUL(VarExp(StrId='v1),VarExp(StrId='v2)))], 
+SymbolTable={v1=Int(2), v2=Int(3)}, 
+Out=[], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
+_______________________________________________________________________
+ProgramState{
+ID=1
+ExecutionStack=[], 
+SymbolTable={v1=Int(2), v2=Int(3)}, 
+Out=[Int(1)], 
+FileTable={}, 
+HeapTable={}, 
+OriginalProgram=(VarDeclStmt(IntType v1);(VarDeclStmt(IntType v2);(v1=ValueExp(Int(2));(v2=ValueExp(Int(3));IF(RelExp(VarExp(StrId='v1) 4 ValueExp(Int(0)))) THEN(print(MUL(VarExp(StrId='v1),VarExp(StrId='v2))))ELSE(print(VarExp(StrId='v1)))))))}
+
+
