@@ -1,0 +1,5 @@
+﻿  SortedBag.cpp
+  main.cpp
+  Generating Code...
+c:\users\asus\source\repos\tema finala lab2 dsa\tema finala lab2 dsa\sortedbag.cpp(308): warning C4715: 'SortedBag::remove': not all control paths return a value
+  TEMA FINALA lab2 dsa.vcxproj -> C:\Users\Asus\source\repos\TEMA FINALA lab2 dsa\Debug\TEMA FINALA lab2 dsa.exe
