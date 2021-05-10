@@ -1,7 +1,0 @@
-E:\School\PPD sem 1 an 3\lab4Proj\lab4Proj\bin\Debug\lab4Proj.exe.config
-E:\School\PPD sem 1 an 3\lab4Proj\lab4Proj\bin\Debug\lab4Proj.exe
-E:\School\PPD sem 1 an 3\lab4Proj\lab4Proj\bin\Debug\lab4Proj.pdb
-E:\School\PPD sem 1 an 3\lab4Proj\lab4Proj\obj\Debug\lab4Proj.csprojAssemblyReference.cache
-E:\School\PPD sem 1 an 3\lab4Proj\lab4Proj\obj\Debug\lab4Proj.csproj.CoreCompileInputs.cache
-E:\School\PPD sem 1 an 3\lab4Proj\lab4Proj\obj\Debug\lab4Proj.exe
-E:\School\PPD sem 1 an 3\lab4Proj\lab4Proj\obj\Debug\lab4Proj.pdb
