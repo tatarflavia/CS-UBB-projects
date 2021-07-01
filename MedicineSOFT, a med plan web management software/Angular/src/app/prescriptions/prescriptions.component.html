@@ -1,0 +1,125 @@
+
+ <mat-expansion-panel style="background-color: #A86123;" (opened)="panelOpenStateNotStarted = true" (closed)="panelOpenStateNotStarted = false" hideToggle="true">
+  <mat-expansion-panel-header>
+    <mat-panel-title >
+      <mat-icon  *ngIf="!panelOpenStateNotStarted">keyboard_arrow_right</mat-icon>
+      <mat-icon  *ngIf="panelOpenStateNotStarted">keyboard_arrow_down</mat-icon>
+       Your pending prescriptions
+    </mat-panel-title>
+    <mat-panel-description  >
+      Click the card to expand the list
+
+    </mat-panel-description>
+  </mat-expansion-panel-header>
+  <ol class="list-group list-group-numbered" >
+    <li class="list-group-item d-flex justify-content-between align-items-start"  *ngFor="let prescription of pendingPrescriptions">
+      <div class="ms-2 me-auto">
+        <div class="fw-bolder">Diagnosis: <i>{{prescription.pDiagnosis}}    </i><span class="badge bg-primary rounded-pill align-bottom" style="height: 1.75rem; font-size: small;" id="detailsPage" (click)="visitPage(prescription.pId)">Details</span></div>
+        <b>Given by:</b> Dr.{{(prescription.pDoctorId  | getDoctorPipe : userService | async).uName}}
+        <br><b>Status:</b> {{prescription.pStatus}}<br>
+        Not started using it yet.
+      </div>
+      
+    </li>
+    
+  </ol>
+</mat-expansion-panel>
+
+ 
+
+
+
+
+  <mat-expansion-panel style="background-color: #2390A8;" (opened)="panelOpenStateCurrent = true" (closed)="panelOpenStateCurrent = false" hideToggle="true">
+    <mat-expansion-panel-header>
+      <mat-panel-title >
+        <mat-icon  *ngIf="!panelOpenStateCurrent">keyboard_arrow_right</mat-icon>
+        <mat-icon  *ngIf="panelOpenStateCurrent">keyboard_arrow_down</mat-icon>
+         Your current prescriptions
+      </mat-panel-title>
+      <mat-panel-description  >
+        Click the card to expand the list
+
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <ol class="list-group list-group-numbered" >
+      <li class="list-group-item d-flex justify-content-between align-items-start"  *ngFor="let prescription of currentPrescriptions">
+        <div class="ms-2 me-auto">
+          <div class="fw-bolder">Diagnosis: <i>{{prescription.pDiagnosis}}    </i><span class="badge bg-primary rounded-pill align-bottom" style="height: 1.75rem; font-size: small;" id="detailsPage" (click)="visitPage(prescription.pId)">Details</span></div>
+          <b>Given by:</b> Dr.{{(prescription.pDoctorId  | getDoctorPipe : userService | async).uName}}
+          <br><b>Status:</b> {{prescription.pStatus}}<br>
+          Started in: {{prescription.pStartDate}}
+        </div>
+        
+      </li>
+      
+    </ol>
+  </mat-expansion-panel>
+
+  
+
+  
+  <mat-expansion-panel style="background-color: #2390A8;" (opened)="panelOpenStateFinished = true" (closed)="panelOpenStateFinished = false" hideToggle="true">
+    <mat-expansion-panel-header>
+      <mat-panel-title >
+        <mat-icon  *ngIf="!panelOpenStateFinished">keyboard_arrow_right</mat-icon>
+        <mat-icon  *ngIf="panelOpenStateFinished">keyboard_arrow_down</mat-icon>
+         Your finished prescriptions
+      </mat-panel-title>
+      <mat-panel-description  >
+        Click the card to expand the list
+
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <ol class="list-group list-group-numbered" >
+      <li class="list-group-item d-flex justify-content-between align-items-start"  *ngFor="let prescription of finishedPrescriptions">
+        <div class="ms-2 me-auto">
+          <div class="fw-bolder">Diagnosis: <i>{{prescription.pDiagnosis}}    </i><span class="badge bg-primary rounded-pill align-bottom" style="height: 1.75rem; font-size: small;" id="detailsPage" (click)="visitPage(prescription.pId)">Details</span></div>
+          <b>Given by:</b> Dr.{{(prescription.pDoctorId  | getDoctorPipe : userService | async).uName}}
+          <br><b>Status:</b> {{prescription.pStatus}}<br>
+          {{prescription.pStartDate}} --> {{prescription.pEndDate}}
+        </div>
+        
+      </li>
+      
+    </ol>
+  </mat-expansion-panel>
+
+
+
+
+
+  
+  <mat-expansion-panel style="background-color: #2390A8;" (opened)="panelOpenStateDismissed = true" (closed)="panelOpenStateDismissed = false" hideToggle="true">
+    <mat-expansion-panel-header>
+      <mat-panel-title >
+        <mat-icon  *ngIf="!panelOpenStateDismissed">keyboard_arrow_right</mat-icon>
+        <mat-icon  *ngIf="panelOpenStateDismissed">keyboard_arrow_down</mat-icon>
+         Your dismissed prescriptions
+      </mat-panel-title>
+      <mat-panel-description  >
+        Click the card to expand the list
+
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <ol class="list-group list-group-numbered" >
+      <li class="list-group-item d-flex justify-content-between align-items-start"  *ngFor="let prescription of dismissedPrescriptions">
+        <div class="ms-2 me-auto">
+          <div class="fw-bolder">Diagnosis: <i>{{prescription.pDiagnosis}}    </i><span class="badge bg-primary rounded-pill align-bottom" style="height: 1.75rem; font-size: small;" id="detailsPage" (click)="visitPage(prescription.pId)">Details</span></div>
+          <b>Given by:</b> Dr.{{(prescription.pDoctorId  | getDoctorPipe : userService | async).uName}}
+          <br><b>Status:</b> {{prescription.pStatus}}<br>
+        </div>
+        
+      </li>
+      
+    </ol>
+  </mat-expansion-panel>
+
+
+
+
+
+  
+  
+
+

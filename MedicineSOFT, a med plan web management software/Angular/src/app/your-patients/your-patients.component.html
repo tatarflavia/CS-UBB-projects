@@ -1,0 +1,37 @@
+<h1>
+    <b></b>Your patients
+  </h1>
+<ol class="list-group list-group-numbered" style="width: 80rem; " >
+    <li class="list-group-item "   *ngFor="let organisation of orgsByDoctor">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold text-uppercase">{{organisation.oName}}</div>
+        {{organisation.oType}}
+      </div>
+
+      <hr>
+      
+
+      <ul class="list-group" *ngFor="let memberDict of patientOrganisationsDict | keyvalue"  style="display: inline-block;"  >
+        <div *ngIf="memberDict.key.oName===organisation.oName">
+            <li class="list-group-item" style="height: 4rem; width: 18rem;  margin:0.2% " *ngIf="memberDict.key.oName===organisation.oName" >
+            <div class="ms-2 me-auto" *ngIf="memberDict.key.oName===organisation.oName">
+              <div class="fw-bold" *ngIf="memberDict.key.oName===organisation.oName">{{memberDict.value.uName}}        <span class="badge bg-primary rounded-pill align-bottom" style="height: 1.75rem; font-size: small;" id="detailsPage" *ngIf="memberDict.key.oName===organisation.oName" (click)="visitPage(memberDict.value.uId)">Details</span></div>
+              {{memberDict.value.uEmail}}
+            </div>
+            
+          </li>
+        </div>
+        
+        
+      </ul>
+    </li>
+    
+  </ol>
+
+
+         
+
+
+
+
+  

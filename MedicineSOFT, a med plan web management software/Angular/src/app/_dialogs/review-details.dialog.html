@@ -1,0 +1,123 @@
+<button class="close" mat-button (click)="onNoClick()">X</button>
+
+<table class="tableBig">
+    <tbody>
+        <tr>
+            <td>
+                    
+<h3><i>Review details</i></h3>
+<table class="table table-borderless table-hover table-responsive tableLittle" *ngIf="review">
+    <tbody>
+        <tr >
+          <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Medication</b></td>
+          <td class="align-middle" style=" vertical-align: center;"><a class="nav-link active" (click)="onNoClick()" [routerLink]="['/medication-details',review.rMedicationId]" routerLinkActive="active">{{(review.rMedicationId  | getMedicationPipe : medicationService | async).mName}}</a></td>
+        </tr>
+        
+        <tr>
+                <td *ngIf="review.rPatientId!==loggedUser.uId" class="align-middle" style="vertical-align: center; font-size: medium;"><b>Reviewer</b></td>
+                <td *ngIf="review.rPatientId!==loggedUser.uId" class="align-middle" style=" vertical-align: center;">{{(review.rPatientId  | getDoctorPipe : userService | async).uName}}</td>
+        </tr>
+        <tr>
+            <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Reaction observed</b></td>
+            <td class="align-middle" style=" vertical-align: center;">{{review.rReactionObserved}}</td>
+        </tr>
+        <tr>
+            <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Overall feel</b></td>
+            <td class="align-middle" style=" vertical-align: center;">{{review.rOverallFeel}}</td>
+        </tr>
+        <tr>
+            <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Medication Quantity</b></td>
+            <td class="align-middle" style=" vertical-align: center;">{{review.rMedQuantity}}</td>
+        </tr>
+        <tr>
+            <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Treatment due</b></td>
+            <td class="align-middle" style=" vertical-align: center;">{{review.rTakingMotive}}</td>
+        </tr>
+        <tr>
+            <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Started taking it</b></td>
+            <td class="align-middle" style=" vertical-align: center;">{{review.rMedStartDate}}</td>
+        </tr>
+        <tr>
+            <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Ended taking it</b></td>
+            <td class="align-middle" style=" vertical-align: center;">{{review.rMedEndDate}}</td>
+        </tr>
+        
+        
+      </tbody>
+</table>
+
+            </td>
+            <td style="padding-left: 4%;">
+                            
+     
+
+        <h3 class="align-top"><i>Prescription details </i></h3>
+
+        <table class="table table-borderless table-hover table-responsive tableLittle" *ngIf="prescription; else elseBlock">
+            <tbody>
+                    <tr>
+                        <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Status</b></td>
+                        <td class="align-middle" style=" vertical-align: center;">{{prescription.pStatus}}</td>
+                        </tr>
+                    <tr>
+                        <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Diagnosis</b></td>
+                        <td class="align-middle" style=" vertical-align: center;">{{prescription.pDiagnosis}}</td>
+                    </tr>
+
+                    
+                    <tr *ngIf="(loggedUser.uIsDoctor===1 && loggedUser.uId!==prescription.pPatientId); else elseBlock2">
+                        <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Given to:</b></td>
+                        <td class="align-middle" style=" vertical-align: center;"><a class="nav-link active" [routerLink]="['/patient-details',prescription.pPatientId]" routerLinkActive="active"(click)="onNoClick()">Patient {{(prescription.pPatientId  | getDoctorPipe : userService | async).uName}}</a></td>
+                    </tr>
+                    <ng-template #elseBlock2><tr>
+                        <td class="align-middle" style="vertical-align: center; font-size: medium;"><b>Given by:</b></td>
+                        <td class="align-middle" style=" vertical-align: center;">Dr. {{(prescription.pDoctorId  | getDoctorPipe : userService | async).uName}}</td>
+                    </tr>
+                    </ng-template>
+                    
+                    
+                    <tr>
+                    
+                    <td class="align-middle" style="vertical-align: center; font-size: medium;" *ngIf="prescription.pStartDate!=null">
+                        <b>Started taking it</b></td>
+                    <td class="align-middle" style=" vertical-align: center;" *ngIf="prescription.pStartDate!=null">{{prescription.pStartDate}}</td></tr>
+                
+                <tr>
+                    <td class="align-middle" style="vertical-align: center; font-size: medium;" *ngIf="prescription.pEndDate!=null"><b>Ended taking it</b></td>
+                    <td class="align-middle" style=" vertical-align: center;" *ngIf="prescription.pEndDate!=null">{{prescription.pEndDate}}</td>
+                </tr>
+            </tbody>
+               
+            </table>
+
+
+            <table class="table table-bordered table-responsive center table-hover pt-5 tableLast" *ngIf="medListOfPrescription">
+                <thead>
+                  <tr>
+                    <th scope="col">Medication Name</th>
+                    <th scope="col">How often is to be taken</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let medListMember of medListOfPrescription">
+                    <td><a class="nav-link active" [routerLink]="['/medication-details',medListMember.mlMedicationId]" routerLinkActive="active" (click)="onNoClick()"> {{medListMember.mlMedicationName}} </a></td>
+                    <td>{{medListMember.mlHowOften}}</td>
+                    
+                    
+                  </tr>
+                  
+                  
+                </tbody>
+              </table>
+
+
+              <ng-template #elseBlock>Made without a prescription.</ng-template>
+
+
+
+            </td>
+        </tr>
+    </tbody>
+    
+</table>
+

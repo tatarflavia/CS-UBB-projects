@@ -1,0 +1,82 @@
+<table class="table table-borderless table-responsive" style="width: 100%;">
+    <tbody>
+        <tr>
+            <td >
+                <h2><b>You can search by the name/email/insured code/document number of the new doctor and then choose from the updated dropdown list.</b></h2>
+                <div class="wrapper pt-0">
+
+                    <form [formGroup]="inputFilterForm">
+                      
+                         <mat-icon class="iconSearch">search</mat-icon> <input type="text" formControlName="searchText" class="form-control search" placeholder="Search.." /> 
+                      
+                  </form>
+                  </div>   <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>  
+
+
+                  <ol class="list-group list-group-numbered" style=" overflow:hidden; overflow-y:scroll; height:200px;">
+                    <li class="list-group-item d-flex justify-content-between align-items-start"  *ngFor="let user of doctors" (click)="change(user)">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">{{user.uName}}</div>
+                        {{user.uEmail}}, Insured Code: {{user.uInsuredCode}}, Document Number: {{user.uDocNumber}}
+                      </div>
+                      
+                    </li>
+                    
+                    
+                  </ol>
+
+            </td>
+            <td  style="width: 100rem; padding-left: 10%;">
+                
+                <div *ngIf="!selectedUser"><p class="fs-5">You have not chosen a doctor yet.</p></div>
+                <div *ngIf="selectedUser"><p class="fs-4">Is this the user you are looking for?</p>
+                    <table class="table table-borderless table-hover table-responsive">
+                        <tbody>
+                        <tr>
+                            <td class="align-middle py-4" style="vertical-align: center; font-size: medium;"><b>Name</b></td>
+                                <td class="align-middle py-4" style=" vertical-align: center;">{{selectedUser.uName}}</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle py-4" style="vertical-align: center; font-size: medium;"><b>Email</b></td>
+                                <td class="align-middle py-4" style=" vertical-align: center;">{{selectedUser.uEmail}}</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle py-4" style="vertical-align: center; font-size: medium;"><b>Insured Code</b></td>
+                                <td class="align-middle py-4" style=" vertical-align: center;">{{selectedUser.uInsuredCode}}</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle py-4" style="vertical-align: center; font-size: medium;"><b>Document Number</b></td>
+                                <td class="align-middle py-4" style=" vertical-align: center;">{{selectedUser.uDocNumber}}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                  
+                </div>
+            </td>
+        </tr>
+        <tr class="pt-5" style="margin-left: auto;margin-right: auto;">
+            <td colspan="2" class="pt-5 align-center" style="margin-left: auto;margin-right: auto; vertical-align: center; text-align:center; margin-top: 10%;">
+                        <button *ngIf=" !error" [disabled]="loading" mat-raised-button color="warn" style="font-size: 120%;" (click)="onSubmitDoctor()">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span><mat-icon>person_add</mat-icon>
+            Add chosen doctor
+                        </button>
+            </td>
+
+        </tr>
+        <tr  class="pt-5" style="margin-left: auto;margin-right: auto;">
+            <td colspan="2" class="pt-5 align-center" style="margin-left: auto;margin-right: auto; vertical-align: center; text-align:center; margin-top: 10%;">
+                <div *ngIf="error2" class="alert alert-danger mt-3 mb-0">{{error2}}</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+

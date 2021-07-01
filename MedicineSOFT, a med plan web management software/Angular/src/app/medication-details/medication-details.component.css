@@ -1,0 +1,51 @@
+
+ 
+
+  .list-container {
+    height: calc(100vh - 100px);
+    width: 720px;
+    border: 1px solid black;
+  }
+  
+  .state-item {
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .state {
+    font-size: 15px;
+    
+  }
+  
+ 
+  .list-group-item {
+    margin: 0 !important;
+    padding: 0 10px !important;
+  }
+  
+  button {
+    margin: 0 15px !important;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .highlightText {
+    background: yellow;
+}
+
+mark {
+    background-color: rgb(255, 81, 0);
+    color: black;
+  }
+
+  div.fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }

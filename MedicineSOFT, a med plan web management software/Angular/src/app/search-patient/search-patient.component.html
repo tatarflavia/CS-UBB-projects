@@ -1,0 +1,35 @@
+
+  <h1>
+    Users list
+  </h1>
+<h3>You can search by the name/email/insured code/document number of the patient</h3>
+<div class="wrapper pt-0">
+
+  <form [formGroup]="inputFilterForm">
+    
+       <mat-icon>search</mat-icon> <input type="text" formControlName="searchText" class="form-control search" placeholder="Search.." /> 
+    
+    
+    
+</form>
+</div><div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+      <ul class="list-group">
+        <!-- results of ngFor is passed to appFilter with argument searchText -->
+        <li class="list-group-item d-flex justify-content-between align-items-start" *ngFor="let patient of patients ">
+          <div class="ms-2 me-auto">
+         <a class="nav-link active" [routerLink]="['/patient-details',patient.uId]" routerLinkActive="active"><b>Name: </b> {{patient.uName}}, <b>Email: </b>{{patient.uEmail}}, <b>Insured Code: </b>{{patient.uInsuredCode}}, <b>Document Number: </b>{{patient.uDocNumber}}</a>
+        </div></li>
+      </ul>
+
+
+
+      
+
+
+
+  
+  
+  
+       
+      
+

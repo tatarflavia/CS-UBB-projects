@@ -1,0 +1,18 @@
+<h1 mat-dialog-title>Save pacient to one of the following organisations:</h1>
+<div mat-dialog-content>
+  <p>Choose an organisation:</p>
+  <mat-form-field appearance="fill">
+    <mat-label>Select</mat-label>
+    <mat-select  (selectionChange)="change($event)" >
+        
+            <mat-option *ngFor="let org of data" [value]="org">{{org.oName}}</mat-option>
+    
+        
+      
+    </mat-select>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button (click)="onOKClick()">Ok</button>
+</div>

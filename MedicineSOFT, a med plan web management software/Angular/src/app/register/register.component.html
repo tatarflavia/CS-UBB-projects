@@ -1,0 +1,167 @@
+
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="../../assets/img/pills.png" class="fullscreen-bg__video">
+      <source src="../../assets/video/pills.mp4" type="video/mp4" oncanplay="video.play()" onloadedmetadata="video.muted = true">
+    </video>
+  </div>
+<div class="col-md-6 offset-md-3">
+    
+    <div class="card">
+        <div class="card-header text-center pb-1">
+            <div class="row align-items-center ">
+                   <div class="col-md-11">
+                          <p class="fs-3 pt-2 pb-1">Register</p>
+                   </div>
+                   
+            </div>
+       </div>
+        <div class="card-body">
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <div class="form-group py-2 position-relative">
+                    <label for="uName" class="fs-6 pb-1">Fullname</label>
+                    <input type="text" formControlName="uName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.uName.errors }" />
+                    <div *ngIf="submitted && f.uName.errors" class="invalid-feedback">
+                        <div *ngIf="f.uName.errors.required">Name is required</div>
+                    </div>
+                </div>
+                <div class="form-group py-2 position-relative">
+                    <label for="uEmail" class="fs-6 pb-1">Email</label>
+                    <input type="text" formControlName="uEmail" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.uEmail.errors }" />
+                    <div *ngIf="submitted && f.uEmail.errors" class="invalid-feedback">
+                        <div *ngIf="f.uEmail.errors.required">Email is required</div>
+                    </div>
+                </div>
+                <div class="form-group py-2 position-relative">
+                    <label for="uBirthday" class="fs-6 pb-1">Birthday</label>
+                    <input type="date" formControlName="uBirthday" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.uBirthday.errors }" />
+                    <div *ngIf="submitted && f.uBirthday.errors" class="invalid-feedback">
+                        <div *ngIf="f.uBirthday.errors.required">Expiration Date is required</div>
+                    </div>
+                </div>
+                <div class="form-group py-2 position-relative">
+                    <div class="container float-left position-relative">
+                        <div class="row">
+                            <div class="col-md position-relative">
+                                <label for="uInsuredCode" class="position-absolute top-50 start-0 fs-6 pb-1">Insured Code</label>
+                            </div>
+                            <div class="col-sm-2 pb-1">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img
+                                        src="assets/img/questionMark.png"
+                                        class="img-fluid hover-shadow w-50 pb-1"
+                                        alt=""
+                                        />
+                                    </button>
+                                    <ul class="dropdown-menu" style="height: 315px; width: 500px;">
+                                      <li><img class="dropdown-item" src="assets/img/cardInsuredCode.jpg"/></li>
+                                    </ul>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                                <input type="text" formControlName="uInsuredCode" class="form-control position-relative" [ngClass]="{ 'is-invalid': submitted && f.uInsuredCode.errors }" />
+                                <div *ngIf="submitted && f.uInsuredCode.errors" class="invalid-feedback">
+                                    <div *ngIf="f.uInsuredCode.errors.required">Insured Code is required</div>
+                                </div>
+                </div>
+
+                <div class="form-group py-2 position-relative">
+                    <div class="container float-left position-relative">
+                        <div class="row">
+                            <div class="col-md position-relative">
+                                <label for="uDocNumber" class="fs-6 pb-1 position-absolute top-50 start-0" >Document Number</label>
+                            </div>
+                            <div class="col-sm-2 pb-1">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img
+                                            src="assets/img/questionMark.png"
+                                            class="img-fluid hover-shadow w-50 pb-1"
+                                            alt=""
+                                            />
+                                        </button>
+                                        <ul class="dropdown-menu" style="height: 315px; width: 500px;">
+                                          <li><img class="dropdown-item" src="assets/img/cardDocNumber.jpg"/></li>
+                                        </ul>
+                                      </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <input type="text" formControlName="uDocNumber" class="form-control position-relative" [ngClass]="{ 'is-invalid': submitted && f.uDocNumber.errors }" />
+                    <div *ngIf="submitted && f.uDocNumber.errors" class="invalid-feedback">
+                        <div *ngIf="f.uDocNumber.errors.required">Document Number is required</div>
+                        
+                    </div>
+                </div>
+
+
+                <div class="form-group py-2 position-relative">
+                    <div class="container float-left position-relative">
+                        <div class="row">
+                            <div class="col-md position-relative">
+                                <label for="uExpirationDate" class="fs-6 pb-1 position-absolute top-50 start-0" >Card expiration date</label>
+                            </div>
+                            <div class="col-sm-2 pb-1">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img
+                                            src="assets/img/questionMark.png"
+                                            class="img-fluid hover-shadow w-50 pb-1"
+                                            alt=""
+                                            />
+                                        </button>
+                                        <ul class="dropdown-menu" style="height: 315px; width: 500px;">
+                                          <li><img class="dropdown-item" src="assets/img/cardExpirationDate.jpg"/></li>
+                                        </ul>
+                                      </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <input type="date" formControlName="uExpirationDate" class="form-control position-relative" [ngClass]="{ 'is-invalid': submitted && f.uExpirationDate.errors }" />
+                    <div *ngIf="submitted && f.uExpirationDate.errors" class="invalid-feedback">
+                        <div *ngIf="f.uExpirationDate.errors.required">Expiration Date is required</div>
+                        
+                    </div>
+                </div>
+
+                
+
+
+                <div class="form-group pt-2 pb-4 position-relative">
+                    <label for="uPassword" class="fs-6 pb-1">Password/Code</label>
+                    <input type="password" formControlName="uPassword" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.uPassword.errors }" />
+                    <div *ngIf="submitted && f.uPassword.errors" class="invalid-feedback">
+                        <div *ngIf="f.uPassword.errors.required">Password/Code is required</div>
+                    </div>
+                </div>
+
+                
+
+                
+                
+                <button style="font-size: 130%;" [disabled]="loading" mat-raised-button color="accent">
+                
+                    <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                    Register
+                </button>
+                <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="fixed">
+    <a class="nav-link" routerLink="/login" routerLinkActive = "active" >
+<button style="font-size: 130%;" mat-raised-button color="accent" style="height: max-content;" type="submit"><mat-icon>keyboard_backspace</mat-icon>Go Back</button></a>
+</div>
+
+<img src="assets/img/logoFinal.png" class="position-fixed top-0 end-0" alt="" style="width: 10rem;" />
+
+
+
+
+

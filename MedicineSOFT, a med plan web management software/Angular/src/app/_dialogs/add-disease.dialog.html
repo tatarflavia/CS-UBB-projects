@@ -1,0 +1,45 @@
+<button class="close" mat-button (click)="onNoClick()">X</button>
+<div class="col-md-6 offset-md-3 py-3"  *ngIf="patient">
+            
+    <div class="card" >
+        <div class="card-header text-center pb-1">
+            <div class="row align-items-center ">
+                   <div class="col-md-11">
+                          <p class="fs-4 pt-2 pb-0" style="color: black;">Add Disease</p>
+                   </div>
+                   
+            </div>
+       </div>
+        <div class="card-body">
+            <form [formGroup]="addDiseaseForm" (ngSubmit)="onSubmit()">
+                <div class="form-group py-3">
+                    <label for="dName" style="color: black;" class="fs-6 pb-1" >Name</label>
+                    <input type="text" formControlName="dName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.dName.errors }" />
+                    <div *ngIf="submitted && f.dName.errors" class="invalid-feedback">
+                        <div *ngIf="f.dName.errors.required">Name is required</div>
+                    </div>
+                </div>
+                <div class="form-group pt-3 pb-5">
+                    <label for="dType" style="color: black;" class="fs-6 pb-1">Type</label>
+                    <input type="text" formControlName="dType" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.dType.errors }" />
+                    <div *ngIf="submitted && f.dType.errors" class="invalid-feedback">
+                        <div *ngIf="f.dType.errors.required">Type is required</div>
+                    </div>
+                </div>
+                <div class="form group text-center">
+                    <button [disabled]="loading" mat-raised-button color="accent" >
+                                    
+                        Add
+                    </button><div *ngIf="error1" class="alert alert-danger mt-3 mb-0">{{error1}}</div>
+                </div>
+                </form>
+
+
+                
+
+                
+
+        </div>
+        
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Prescription status: 'Not Started'</h1>
+<div mat-dialog-content>
+  <p>Choose a change:</p>
+  <mat-form-field appearance="fill">
+    <mat-label>Select</mat-label>
+    <mat-select [(ngModel)]="data">
+        
+            <mat-option value="Dismissed">Dismissed</mat-option>
+            <mat-option value="Ongoing">Ongoing</mat-option>
+    
+        
+      
+    </mat-select>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Ok</button>
+</div>

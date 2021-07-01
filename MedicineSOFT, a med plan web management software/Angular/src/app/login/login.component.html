@@ -1,0 +1,94 @@
+﻿
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="../../assets/img/pills.png" class="fullscreen-bg__video">
+      <source src="../../assets/video/pills.mp4" type="video/mp4" oncanplay="video.play()" onloadedmetadata="video.muted = true">
+    </video>
+  </div>
+
+        <div class="col-md-6 offset-md-3">
+
+            
+        
+        <div class="card">
+            <div class="card-header text-center pb-0">
+                <div class="row align-items-center ">
+                       <div class="col-md-11">
+                              <p class="fs-4 pt-1 pb-0">Authenticate</p>
+                       </div>
+                       
+                </div>
+            </div>
+            <div class="card-body">
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                    <div class="form-group py-2 position-relative">
+                        <div class="container float-left position-relative">
+                            <div class="row">
+                                <div class="col-md position-relative">
+                                    <label class="position-absolute top-50 start-0 fs-5" for="uDocNumber">Document Number</label>
+                                </div>
+                                <div class="col-sm-2 pb-1 ">
+                                        <div class="btn-group">
+                                            <button type="button " class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <img
+                                                src="assets/img/questionMark.png"
+                                                class="img-fluid hover-shadow w-50 pb-1"
+                                                alt=""
+                                                />
+                                            </button>
+                                            <ul class="dropdown-menu" style="height: 325px; width: 500px;">
+                                            <li><img class="dropdown-item" src="../../assets/img/cardDocNumber.jpg"/></li>
+                                            </ul>
+                                        </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <input type="text" formControlName="uDocNumber" class="form-control  position-relative" [ngClass]="{ 'is-invalid': submitted && f.uDocNumber.errors }" />
+                        <div *ngIf="submitted && f.uDocNumber.errors" class="invalid-feedback">
+                            <div *ngIf="f.uDocNumber.errors.required">Document Number is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group py-4 position-relative">
+                        <label for="uPassword" class="py-1 fs-5">Password/Code</label>
+                        <input type="password" formControlName="uPassword" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.uPassword.errors }" />
+                        <div *ngIf="submitted && f.uPassword.errors" class="invalid-feedback">
+                            <div *ngIf="f.uPassword.errors.required">Password/Code is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group position-absolute start-0">
+                        <a class="nav-link position-relative fs-6" routerLink="/register" routerLinkActive = "active" >You don't have an account? Register now here</a>
+                       
+                    </div>
+
+                    <div class="form-group py-5">
+                            <button [disabled]="loading" style="font-size: 130%;" class=" position-absolute bottom-2" mat-raised-button color="accent">
+                            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                            Login
+                        </button>
+                    </div>
+                   
+                    <div *ngIf="error" class="alert alert-danger mt-3 mb-0 position-relative">{{error}}</div>
+                </form>
+            </div>
+        </div>
+
+
+        <h3 style="text-align: justify;" class="text-cyan text-border-weak"><b> <br>
+            &nbsp;&nbsp;Would you like to keep records of your medical prescriptions as well as your medicine historics? Do you wish to see a personalized medication description when searching them? Would you like to give easier medicine feedback? <br><br>
+            &nbsp;&nbsp;Register or log into your account using your National Card information and start keeping records right now.
+
+            
+         </b> </h3>
+
+
+    </div>
+
+
+
+    
+<div class="fixed">
+    <img src="assets/img/logoFinal.png" class="position-fixed top-0 end-0" alt="" style="width: 10rem;" />
+    
+</div>
+

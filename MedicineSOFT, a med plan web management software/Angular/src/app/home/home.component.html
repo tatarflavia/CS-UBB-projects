@@ -1,0 +1,27 @@
+﻿
+<div class="card mt-4 "  *ngIf="user && userDiseases" style="width: 65rem;">
+    <p class="card-header fs-4" >Welcome, {{user.uName}}!</p>
+    <div class="card-body">
+        <p class="fs-5" >Your information:</p>
+        <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
+        
+            <p class="fs-6"><b style="color:#000066"><i>Name:</i></b> {{user.uName}}</p>
+            <p class="fs-6"><b style="color:#000066"><i>Email:</i></b> {{user.uEmail}}</p>
+            <p class="fs-6"><b style="color:#000066"><i>Insured Code:</i></b> {{user.uInsuredCode}}</p>
+            <p class="fs-6"><i style="color:#000066"><b>Document Number:</b></i> {{user.uDocNumber}}</p>
+            <p class="fs-6"><i style="color:#000066"><b>Card Expiration Date:</b></i> {{user.uExpirationDate}}</p>
+         <br>   
+        <ul class="list-group list-group-flush position-relative" >
+        <li class="list-group-item fs-5 ">Your diseases/states:</li>
+        <li class="list-group-item fs-6 "*ngIf="userDiseases && userDiseases.length===0"> <p class="fs-6" *ngIf="userDiseases && userDiseases.length===0">You don't have any diseases recorded.</p></li>
+            <li class="list-group-item fs-6 " *ngFor="let disease of userDiseases"><b style="color:#000066">{{disease.dName}}</b> of type <b style="color:#000066">{{disease.dType}}</b></li>
+        </ul>
+    </div>
+</div>
+
+<div class="fixed">
+    <img src="assets/img/logoFinal.png" class=" position-fixed end-0"  alt="" style="width: 20rem; bottom: 80px;" />
+    <p class="text-end fw-bold fst-italic">A web software used for offering transperancy and better doctor-patient communication.</p>
+   
+    <p class="text-end fst-italic fw-bolder">emailMedSoft@gmail.com,+40734498563</p>
+</div>

@@ -1,0 +1,313 @@
+<div *ngIf="prescription ; else elseBlock">
+
+    <table class="table table-borderless table-responsive" style="width: 100%;">
+        <tbody>
+            <tr>
+                <td colspan="2">
+
+
+
+                    <h2><i>Prescription details</i></h2>
+
+                    <table class="table table-hover table-striped table-responsive pb-5">
+                      <thead>
+                        <tr>
+                          <th scope="col">Status</th>
+                          <th scope="col">Diagnosis</th>
+                          <th scope="col">
+                            <div *ngIf="(loggedUser.uIsDoctor===1 && loggedUser.uId!==prescription.pPatientId); else elseBlock">
+                              Given to
+                            </div>
+                            <ng-template #elseBlock>
+                              Given by
+                            </ng-template>
+                          </th>
+                          <th scope="col">Started taking it</th>
+                            <th scope="col">Ended taking it</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          
+                          <td class="align-middle">{{prescription.pStatus}}</td>
+                          <td class="align-middle">{{prescription.pDiagnosis}}</td>
+                          <td class="align-middle">
+                            <div *ngIf="(loggedUser.uIsDoctor===1 && loggedUser.uId!==prescription.pPatientId); else elseBlock3">
+                              <a class="nav-link active" [routerLink]="['/patient-details',prescription.pPatientId]" routerLinkActive="active">Patient {{(prescription.pPatientId  | getDoctorPipe : userService | async).uName}}</a>
+                            </div>
+                            <ng-template #elseBlock3>
+                              Dr. {{(prescription.pDoctorId  | getDoctorPipe : userService | async).uName}}
+                            </ng-template>
+                          </td>
+                          <td class="align-middle">
+                            <div *ngIf="prescription.pStartDate!=null">
+                              {{prescription.pStartDate}}
+                            </div>
+                          </td>
+                          <td class="align-middle">
+                            <div *ngIf="prescription.pEndDate!=null">
+                              {{prescription.pEndDate}}
+                            </div>
+                          </td>
+                        </tr>
+                        
+                        
+                      </tbody>
+                    </table>
+
+
+
+                                    
+                <table class="table table-bordered table-responsive center table-hover pt-5" style="margin-top:7%;" *ngIf="medListOfPrescription">
+                    <thead>
+                    <tr>
+                        <th scope="col">Medication Name</th>
+                        <th scope="col">How often is to be taken</th>
+                        
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let medListMember of medListOfPrescription">
+                        <td><a class="nav-link active" [routerLink]="['/medication-details',medListMember.mlMedicationId]" routerLinkActive="active"> {{medListMember.mlMedicationName}} </a></td>
+                        <td>{{medListMember.mlHowOften}}</td>
+                        
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+
+
+
+
+
+
+
+
+                <td>
+
+
+
+
+
+
+                        <div class="col-md-6 offset-md-3">
+                
+                <div class="card" style="width: 25rem;">
+                    <div class="card-header text-center pb-1">
+                        <div class="row align-items-center ">
+                               <div class="col-md-11">
+                                      <p class="fs-4 pt-2 pb-0">Add review</p>
+                               </div>
+                               
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form [formGroup]="addReviewForm" (ngSubmit)="onSubmit()">
+                            <div class="form-group py-2">
+                                <label for="rMedicationName" class="fs-6 pb-1">Medication</label>
+                                <input type="text" formControlName="rMedicationName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rMedicationName.errors }" />
+                                <div *ngIf="submitted && f.rMedicationName.errors" class="invalid-feedback">
+                                    <div *ngIf="f.rMedicationName.errors.required">Medication is required</div>
+                                </div>
+                            </div>
+                            <div class="form-group py-2">
+                                <label for="rReactionObserved" class="fs-6 pb-1">Reaction observed (like fever,muscular pain,chills..)</label>
+                                <input type="text" formControlName="rReactionObserved" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rReactionObserved.errors }" />
+                                <div *ngIf="submitted && f.rReactionObserved.errors" class="invalid-feedback">
+                                    <div *ngIf="f.rReactionObserved.errors.required">Reaction is required</div>
+                                </div>
+                            </div>
+                            <div class="form-group py-2">
+                                <label for="rOverallFeel" class="fs-6 pb-1">Overall Feel (from 1-feeling the worst to 5-feeling the best)</label>
+                                <input type="number" formControlName="rOverallFeel" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rOverallFeel.errors }" />
+                                <div *ngIf="submitted && f.rOverallFeel.errors" class="invalid-feedback">
+                                    <div *ngIf="f.rOverallFeel.errors.required">Overall Feel is required</div>
+                                </div>
+                            </div>
+
+                            <div class="form-group py-2">
+                                <label for="rMedQuantity" class="fs-6 pb-1">Med Quantity (doses per day)</label>
+                                <input type="text" formControlName="rMedQuantity" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rMedQuantity.errors }" />
+                                <div *ngIf="submitted && f.rMedQuantity.errors" class="invalid-feedback">
+                                    <div *ngIf="f.rMedQuantity.errors.required">Med Quantity is required</div>
+                                </div>
+                            </div>
+                            <div class="form-group py-2">
+                                <label for="rTakingMotive" class="fs-6 pb-1">Treatment due to (motive for using)</label>
+                                <input type="text" formControlName="rTakingMotive" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rTakingMotive.errors }" />
+                                <div *ngIf="submitted && f.rTakingMotive.errors" class="invalid-feedback">
+                                    <div *ngIf="f.rTakingMotive.errors.required">Taking Motive is required</div>
+                                </div>
+                            </div>
+                            <div class="form-group py-2">
+                                <label for="rMedStartDate" class="fs-6 pb-1">Started taking it</label>
+                                <input type="date" formControlName="rMedStartDate" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rMedStartDate.errors }" />
+                                <div *ngIf="submitted && f.rMedStartDate.errors" class="invalid-feedback">
+                                    <div *ngIf="f.rMedStartDate.errors.required">Starting Date is required</div>
+                                </div>
+                            </div>
+                            
+
+                        
+
+                            <div class="form-group pt-2 pb-4">
+                                <label for="rMedEndDate" class="fs-6 pb-1">Ended taking it:</label>
+                                <input type="date" formControlName="rMedEndDate" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rMedEndDate.errors }" />
+                                <div *ngIf="submitted && f.rMedEndDate.errors" class="invalid-feedback">
+                                    <div *ngIf="f.rMedEndDate.errors.required">Ending Date is required</div>
+                                </div>
+                            </div>
+
+
+
+                            
+
+                            
+                            
+
+                            <button [disabled]="loading" mat-raised-button color="warn">
+                                <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                               <mat-icon>add</mat-icon>Add Review
+                            </button>
+                            <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+                        </form>
+                    </div>
+                </div>
+            </div>   
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</div>
+
+
+
+
+
+<ng-template #elseBlock>
+
+    <div class="col-md-6 offset-md-3">
+            
+        <div class="card">
+            <div class="card-header text-center pb-1">
+                <div class="row align-items-center ">
+                       <div class="col-md-11">
+                              <p class="fs-3 pt-2 pb-0">Add review</p>
+                       </div>
+                       
+                </div>
+            </div>
+            <div class="card-body">
+
+                
+
+                <form [formGroup]="addReviewForm" (ngSubmit)="onSubmit()">
+                    
+
+                    <div class="form-group py-2">
+                        <label for="rMedicationName" class="fs-6 pb-1">Medication</label>
+                        <div *ngIf="medication; else elseBlock2">
+                            <input type="text" formControlName="rMedicationName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rMedicationName.errors }" />
+                        </div>
+                        <ng-template #elseBlock2>
+                            ,Search here:
+                            <input type="text" formControlName="rMedicationName"  class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rMedicationName.errors }" />
+                                <mat-form-field [style.width.px]=250 style="background-color: cornflowerblue;"><mat-label >Choose here:</mat-label>
+                                
+                                <mat-select placeholder="Select medication" formControlName="rMedicationId" (selectionChange)="change($event)" >
+                                    <mat-option value="" disabled>Choose your med</mat-option>
+                                    <mat-option *ngFor="let med of medications" [value]="med">{{ med.mName }}</mat-option>
+                                </mat-select></mat-form-field>
+                        
+
+                            <div *ngIf="submitted && f.rMedicationId.errors" class="invalid-feedback">
+                            <div *ngIf="f.rMedicationId.errors.required">Medication is required</div>
+                        </div>
+                        </ng-template>
+                        <div *ngIf="submitted && f.rMedicationName.errors" class="invalid-feedback">
+                            <div *ngIf="f.rMedicationName.errors.required">Medication is required</div>
+                        </div>
+                        
+                    </div>
+                    <div class="form-group py-2">
+                        <label for="rReactionObserved" class="fs-6 pb-1">Reaction observed (like fever,muscular pain,chills..)</label>
+                        <input type="text" formControlName="rReactionObserved" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rReactionObserved.errors }" />
+                        <div *ngIf="submitted && f.rReactionObserved.errors" class="invalid-feedback">
+                            <div *ngIf="f.rReactionObserved.errors.required">Reaction is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group py-2">
+                        <label for="rOverallFeel" class="fs-6 pb-1">Overall Feel (from 1-feeling the worst to 5-feeling the best)</label>
+                        <input type="number" formControlName="rOverallFeel" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rOverallFeel.errors }" />
+                        <div *ngIf="submitted && f.rOverallFeel.errors" class="invalid-feedback">
+                            <div *ngIf="f.rOverallFeel.errors.required">Overall Feel is required</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group py-2">
+                        <label for="rMedQuantity" class="fs-6 pb-1">Med Quantity (doses per day)</label>
+                        <input type="text" formControlName="rMedQuantity" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rMedQuantity.errors }" />
+                        <div *ngIf="submitted && f.rMedQuantity.errors" class="invalid-feedback">
+                            <div *ngIf="f.rMedQuantity.errors.required">Med Quantity is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group py-2">
+                        <label for="rTakingMotive" class="fs-6 pb-1">Treatment due to (motive for using)</label>
+                        <input type="text" formControlName="rTakingMotive" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rTakingMotive.errors }" />
+                        <div *ngIf="submitted && f.rTakingMotive.errors" class="invalid-feedback">
+                            <div *ngIf="f.rTakingMotive.errors.required">Taking Motive is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group py-2">
+                        <label for="rMedStartDate" class="fs-6 pb-1">Started taking it</label>
+                        <input type="date" formControlName="rMedStartDate" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rMedStartDate.errors }" />
+                        <div *ngIf="submitted && f.rMedStartDate.errors" class="invalid-feedback">
+                            <div *ngIf="f.rMedStartDate.errors.required">Starting Date is required</div>
+                        </div>
+                    </div>
+                    
+
+                
+
+                    <div class="form-group pb-4 pt-2">
+                        <label for="rMedEndDate" class="fs-6 pb-1">Ended taking it:</label>
+                        <input type="date" formControlName="rMedEndDate" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.rMedEndDate.errors }" />
+                        <div *ngIf="submitted && f.rMedEndDate.errors" class="invalid-feedback">
+                            <div *ngIf="f.rMedEndDate.errors.required">Ending Date is required</div>
+                        </div>
+                    </div>
+
+
+
+                    
+
+                    
+                    
+                    
+                    <button [disabled]="loading" mat-raised-button color="warn">
+                        <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                        <mat-icon>add</mat-icon>Add Review
+                    </button>
+                    <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+                </form>
+            </div>
+        </div>
+    </div>
+</ng-template>
+
+
+
+
+
+  
+  <div class="fixed">
+     
+    <button mat-raised-button color="accent" (click)="visitLastPage()" style="height: max-content;" type="submit"><mat-icon>keyboard_backspace</mat-icon>Go Back</button>
+    </div>
+
+
+

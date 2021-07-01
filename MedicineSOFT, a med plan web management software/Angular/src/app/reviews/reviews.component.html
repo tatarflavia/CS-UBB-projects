@@ -1,0 +1,20 @@
+<p class="fs-4 pb-1">
+   <b style="color:#112F36">Your reviews</b>
+</p>
+
+<div *ngIf="userReviews && userReviews.length===0">
+  <p class="fs-6 pb-1">It seems you don't have any reviews yet. Consider reviewing a med from the 'Med List' button from the menu above.</p>
+</div>
+<ol class="list-group list-group-numbered" *ngIf="userReviews">
+    <li class="list-group-item d-flex justify-content-between align-items-start"  *ngFor="let review of userReviews">
+      <div class="ms-2 me-auto">
+        <div class="fw-bolder">Review for: {{(review.rMedicationId  | getMedicationPipe : medicationService | async).mName}}          <span class="badge bg-primary rounded-pill align-bottom" style="height: 1.75rem; font-size: small;" id="detailsPage" (click)="openDialog(review.rId)">Details</span></div>
+        <div *ngIf="review.rPrescriptionId!==null"><b>Made with prescription</b></div>
+        {{review.rMedStartDate}}-->{{review.rMedEndDate}}
+      </div>
+    </li>
+    
+  </ol>
+
+
+

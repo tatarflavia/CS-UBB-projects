@@ -1,0 +1,35 @@
+<h1>
+    Medication list
+  </h1>
+  <h3>You can search by the name of the medication.</h3>
+  
+  
+        <div class="wrapper pt-0">
+
+          <form [formGroup]="inputFilterForm">
+            
+               <mat-icon>search</mat-icon> <input type="text" formControlName="searchText" class="form-control search" placeholder="Search.." /> 
+            
+            
+            
+        </form>
+        </div><div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+       
+        
+       
+        
+<ol class="list-group list-group-numbered" >
+    <li class="list-group-item d-flex justify-content-between align-items-start"  *ngFor="let medication of medications">
+      <div class="ms-2 me-auto">
+        <div class="fw-bolder">{{medication.mName}}       <span class="badge bg-primary rounded-pill align-bottom" style="height: 1.75rem; font-size: small;" id="detailsPage" (click)="visitPage(medication.mId)">Details</span></div>
+        <b>Producer: </b>{{medication.mProducer}}
+      </div>
+      
+    </li>
+    
+  </ol>
+
+
+
+
+

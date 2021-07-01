@@ -1,0 +1,178 @@
+
+
+
+<h1><i>Patient details</i></h1>
+
+
+
+<table class="table table-hover table-striped table-responsive pb-5" *ngIf="patient" style="width: 100%;">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Document Number
+      </th>
+      <th scope="col">Insured Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      
+      <td class="align-middle">{{patient.uName}}</td>
+      <td class="align-middle">{{patient.uEmail}}</td>
+      <td class="align-middle">
+        {{patient.uDocNumber}}
+      </td>
+      <td class="align-middle">
+        {{patient.uInsuredCode}}
+      </td>
+      
+    </tr>
+   
+    
+  </tbody>
+</table>
+
+<hr>
+
+<table class="table table-borderless center table-responsive" style="width: 100%;">
+  <tbody>
+      <tr >
+          <td  colspan="2"style="text-align:center;">
+
+            <h2 ><b>Diseases the patient has listed:</b></h2>
+            
+            <div *ngIf="patientDiseases">
+              <div *ngIf="patientDiseases.length===0; else elseBlock">
+                The patient has no diseases listed.
+                <button mat-raised-button *ngIf="isYourPatient" (click)="openDiseaseDialog()" style="font-size: 100%;"><mat-icon>add_box</mat-icon>Add Disease</button>
+              </div>
+              <ng-template #elseBlock>
+                        <table class="table table-bordered table-responsive table-hover pt-5" style="width: 70%;margin-right: 2%; margin-left: auto;" >
+                  <thead>
+                    <tr>
+                      <th scope="col" style="text-align:center;" >Disease Name</th>
+                      <th scope="col" style="text-align:center;" >Disease Type</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let disease of patientDiseases">
+                      <td  class="position-relative " style="text-align:center; vertical-align: center;" >
+                        {{disease.dName}}
+                      </td>
+                      <td  class="position-relative " style="text-align:center; vertical-align: center;" >
+                        {{disease.dType}}
+                      </td>
+                      
+                    </tr>
+                    <tr *ngIf="isYourPatient">
+                        <td style="text-align:center;" class="align-middle"><button mat-raised-button (click)="openDiseaseDialog()" style="font-size: 100%;"><mat-icon>add_box</mat-icon>Add Disease</button></td>
+                    </tr>
+                    
+                    
+                  </tbody>
+                </table>
+              </ng-template>
+              </div>
+
+           
+
+
+
+          </td>
+          <td  class="align-middle">
+                  
+                <a class="nav-link active" [routerLink]="['/add-prescription',patient.uId]" routerLinkActive="active">
+                  <button mat-raised-button color="warn" class="align-middle" style="font-size: 120%;">Add Precription<mat-icon>note_add</mat-icon></button></a>
+          </td>
+        </tr>
+     
+      <tr style="border: 1px; border-color:black">
+        <td colspan="2" style="border: 1px; border-color:black">
+
+
+    <div *ngIf="organisationsPatientIsEnrolled && isYourPatient">
+        <h3><b>Organisations the patient is enrolled in your list to:</b></h3>
+        <ol class="list-group list-group-numbered" >
+          <li class="list-group-item d-flex justify-content-between align-items-start"  *ngFor="let organisation of organisationsPatientIsEnrolled">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">{{organisation.oName}}</div>
+              {{organisation.oType}}
+            </div>
+            
+          </li>
+          
+          
+        </ol>
+      </div>
+      <button class="py-1" mat-raised-button color="accent" style="font-size: 100%; margin-top: 2%;" *ngIf="organisationsPatientIsNotEnrolledInForDoctor && organisationsPatientIsNotEnrolledInForDoctor.length>0" (click)="openOrganisationDialog()"><mat-icon>save</mat-icon>Save the pacient to an organisation</button>
+        </td>
+        <td colspan="1">
+
+
+
+          <div *ngIf="prescriptionsForPacientByDoctor && ((prescriptionsForPacientByDoctor.length>0 && !isYourPatient) || (isYourPatient))">
+            <h3>
+              <b>The prescriptions you gave:</b>
+            </h3>
+          <mat-expansion-panel style="background-color: #138EA8;" (opened)="prescCardStateOpened = true" (closed)="prescCardStateOpened = false" hideToggle="true">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <mat-icon  *ngIf="!prescCardStateOpened">keyboard_arrow_right</mat-icon>
+                <mat-icon  *ngIf="prescCardStateOpened">keyboard_arrow_down</mat-icon>
+                Prescriptions you gave:
+              </mat-panel-title>
+              <mat-panel-description>
+                Click the card to expand the list
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <ol class="list-group list-group-numbered" >
+              <li class="list-group-item d-flex justify-content-between align-items-start"  *ngFor="let prescription of prescriptionsForPacientByDoctor">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bolder">Diagnosis: <i>{{prescription.pDiagnosis}}    </i><span class="badge bg-primary rounded-pill align-bottom" style="height: 1.75rem; font-size: small;" id="detailsPage" (click)="visitPage(prescription.pId)">Details</span></div>
+                  <b>Status:</b> {{prescription.pStatus}}<br>
+                  {{prescription.pStartDate}}-->{{prescription.pEndDate}}
+                </div>
+              </li>
+              
+            </ol>
+          </mat-expansion-panel>
+      </div>
+
+          </td>
+      </tr>
+
+      </tbody></table>
+
+      
+
+
+
+
+        
+
+
+
+
+
+ 
+
+
+
+
+  
+
+  
+ 
+  
+
+
+
+  
+
+<div class="fixed">
+     
+  <button mat-raised-button color="accent" (click)="visitLastPage()" style="height: max-content;" type="submit"><mat-icon>keyboard_backspace</mat-icon>Go Back</button>
+  </div>
+ 
+

@@ -1,0 +1,54 @@
+
+
+.wrapper {
+    position: relative;
+    display: flex;
+   
+  }
+  
+  .search {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 80%;
+    width: 500px;
+    padding: 20px;
+    outline: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .iconSearch {
+    position: absolute;
+    top: 12px;
+    left: 1px;
+    width: 14px;
+  }
+  
+  
+  .search:hover, .search:focus {
+    border: 1px solid #009688;
+    background-color: white;
+  }
+.mat-input-underline {
+    background-color: #FF0000;    /* replace this color with your accent color hex code */
+}
+.mat-form-field {
+    color: #FF0000;
+}
+.mat-form-field {
+    background-color: #FF0000 !important;
+}
+    .mat-label,.mat-field-label.mat-focused,
+    .mat-form-field.mat-focused.matform-field-should-float {
+        color: #FF0000;
+    }
+    .mat-form-field-underline, .mat-form-field-underline.mat-focused {
+        background-color: #FF0000;
+      }
+
+      li:hover{
+        border: 1px solid black;
+        background-color: lightblue;
+        cursor: pointer;
+      }
+      
+    

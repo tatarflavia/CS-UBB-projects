@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+a { cursor: pointer }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.cdk-overlay-pane.my-dialog {
+    position: relative!important;
+  }
+  .close.mat-button {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    padding: 5px;
+    line-height: 14px;
+    min-width: auto;
+  }
+
+  .mat-raised-button:hover {
+    
+    background: gray;
+  }
+
+  
+.container { padding-top: 40px; }
+
+mat-dialog-container {
+    background-color: #F59B4C !important;
+    
+ }
+ .mat-select-panel {
+    background: #A86123;
+    
+}

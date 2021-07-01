@@ -1,0 +1,105 @@
+<table class="table table-borderless table-responsive" style="width: 100%;">
+    <tbody>
+        <tr>
+            <td colspan="2">
+                <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                <div *ngIf="userDiseases && userDiseases.length>0 && personalisedDescSplit && !itHasNotFound">
+                    <h2>Prospectus passages where your diseases have been found:</h2>
+                    
+                    <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+                        <cdk-virtual-scroll-viewport class="list-container" itemSize="100" minBufferPx="1200" maxBufferPx="1200" >
+                                    <div *cdkVirtualFor="let str of strsObservable | async; trackBy: trackByFn" class="list-group-item state-item" >
+                                    <div class="state"><span style="white-space: pre-line"><p [innerHTML]="str"></p></span></div>
+                                    </div>
+                        </cdk-virtual-scroll-viewport>
+                    </div>
+                
+                <div *ngIf="userDiseases && userDiseases.length===0 && personalisedDescSplit">
+                    <h2>Prospectus passages where your diseases have been found</h2>
+                    <h4>You have no diseases, here is the full prospectus:</h4>
+                    
+                    <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+                    
+                        <cdk-virtual-scroll-viewport class="list-container" itemSize="100" minBufferPx="1200" maxBufferPx="1200" >
+                            <div *cdkVirtualFor="let str of strsObservable | async; trackBy: trackByFn" class="list-group-item state-item">
+                            <div class="state"><span style="white-space: pre-line">{{str}}</span></div>
+                            </div>
+                        </cdk-virtual-scroll-viewport>
+                   
+                </div>
+
+                <div *ngIf="userDiseases && userDiseases.length>0 && personalisedDescSplit && itHasNotFound">
+                    <h2>Prospectus passages where your diseases have been found:</h2>
+                    <h4>The search engine didn't find your diseases, here is the full prospectus:</h4>
+                    
+                    <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+
+                        <cdk-virtual-scroll-viewport class="list-container" itemSize="100" minBufferPx="1200" maxBufferPx="1200" >
+                            <div *cdkVirtualFor="let str of strsObservable | async; trackBy: trackByFn" class="list-group-item state-item">
+                            <div class="state"><span style="white-space: pre-line">{{str}}</span></div>
+                            </div>
+                            <hr>
+                        </cdk-virtual-scroll-viewport>
+                </div>
+                
+            </td>
+            <td style="padding-left: 5%; width: 70rem;">
+                <p class="fs-4"><i>Medication details</i></p>
+
+                
+
+
+
+                
+                    <table class="table table-borderless table-hover table-responsive" *ngIf="medication">
+                        <tbody>
+                        <tr>
+                            <td class="align-middle py-3" style="vertical-align: center; font-size: medium;"><b>Name</b></td>
+                                <td class="align-middle py-3" style=" vertical-align: center;">{{medication.mName}}</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle py-3" style="vertical-align: center; font-size: medium;"><b>Producer</b></td>
+                                <td class="align-middle py-3" style=" vertical-align: center;">{{medication.mProducer}}</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle py-3" style="vertical-align: center; font-size: medium;"><b>Pharmaceutical Form</b></td>
+                                <td class="align-middle py-3" style=" vertical-align: center;">{{medication.mPharmaceuticalForm}}</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle py-3" style="vertical-align: center; font-size: medium;"><b>DCI</b></td>
+                                <td class="align-middle py-3" style=" vertical-align: center;">{{medication.mDCI}}</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle py-3" style="vertical-align: center; font-size: medium;"><b>Therapeutic Action</b></td>
+                                <td class="align-middle py-3" style=" vertical-align: center;">{{medication.mTherapeuticAction}}</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle py-3" style="vertical-align: center; font-size: medium;"><b>Prospectus link</b></td>
+                                <td class="align-middle py-3" style=" vertical-align: center;"><a href={{medication.mProspectusLinkRO}}>here</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    
+        <a class="nav-link active" [routerLink]="['/add-review',0,medication.mId]" routerLinkActive="active" *ngIf="medication">
+            <button mat-raised-button color="warn"><mat-icon>add</mat-icon>Add Review</button> </a>
+                   
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+ 
+ 
+
+  
+<div class="fixed">
+     
+    <button mat-raised-button color="accent" (click)="visitLastPage()" style="height: max-content;" type="submit"><mat-icon>keyboard_backspace</mat-icon>Go Back</button>
+    </div>
+

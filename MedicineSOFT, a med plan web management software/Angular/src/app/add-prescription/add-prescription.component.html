@@ -1,0 +1,173 @@
+<div *ngIf="patient">
+
+    <table class="table table-borderless table-responsive" style="width: 100%;">
+        <tbody>
+            <tr >
+                <td colspan="3" style="margin-left: auto;margin-right: auto;  text-align:center; ">
+                    <p class="fs-4 pb-0"><b>Add prescription for patient {{patient.uName}}</b></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1"  style="width: 50rem; ">
+                    <div class="card col-md-6 offset-md-3 ">
+                        <div class="card-header text-center pb-0">
+                            <div class="row align-items-center ">
+                                   <div class="col-md-11">
+                                          <p class="fs-5 pt-1 pb-0">Add Diagnosis for prescription</p>
+                                   </div>
+                                   
+                            </div>
+                        </div>
+                    <div class="card-body">
+                        <form [formGroup]="addPrescriptionForm" (ngSubmit)="onSubmitPresc()">
+                            <div class="form-group py-1">
+                                <label for="pDiagnosis" class="fs-6 pb-1">Diagnosis</label>
+                                <input type="text" formControlName="pDiagnosis" class="form-control" [ngClass]="{ 'is-invalid': submittedPresc && fPresc.pDiagnosis.errors }" />
+                                <div *ngIf="submittedPresc && fPresc.pDiagnosis.errors" class="invalid-feedback">
+                                    <div *ngIf="fPresc.pDiagnosis.errors.required">Diagnosis is required</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                
+                
+
+                    <div class="card col-md-6 offset-md-3" style="margin-top: 1%;">
+                        <div class="card-header text-center pb-0">
+                            <div class="row align-items-center ">
+                                   <div class="col-md-11">
+                                          <p class="fs-5 pt-1 pb-0">Add Medication for prescription</p>
+                                   </div>
+                                   
+                            </div>
+                        </div>
+                    <div class="card-body">
+                    <form [formGroup]="addMedForm" (ngSubmit)="onSubmitMed()">
+                    
+                        <div class="form-group pb-2">
+                            <label for="mlMedicationName">  Search medication here:</label>
+                                
+                                
+                                <mat-icon class="iconSearch">search</mat-icon> <input type="text" formControlName="mlMedicationName"  class="form-control search" [ngClass]="{ 'is-invalid': submitted && fMed.mlMedicationName.errors }"   placeholder=".Search.." />     
+
+                                    <ol class="list-group list-group-numbered" style=" overflow:hidden; overflow-y:scroll; height:100px;">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start"  *ngFor="let med of medications" (click)="change(med)">
+                                          <div class="ms-2 me-auto">{{ med.mName }}
+                                          </div>
+                                          
+                                        </li>
+                                        
+                                        
+                                      </ol>
+                            
+    
+                                <div *ngIf="submitted && fMed.mlMedicationId.errors" class="invalid-feedback">
+                                <div *ngIf="fMed.mlMedicationId.errors.required">Medication is required</div>
+                            </div>
+                           
+                            
+                        </div>
+                        <div class="form-group pb-2">
+                            <label for="mlHowOften">How often is the med to be taken</label>
+                            <input type="text" formControlName="mlHowOften" class="form-control" [ngClass]="{ 'is-invalid': submitted && fMed.mlHowOften.errors }" />
+                            <div *ngIf="submitted && fMed.mlHowOften.errors" class="invalid-feedback">
+                                <div *ngIf="fMed.mlHowOften.errors.required">How often value is required</div>
+                            </div>
+                        </div>
+                        <div class="form group text-center">
+                        <button style="font-size: 110%;"  [disabled]="loading" mat-raised-button color="accent">
+                            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                            <mat-icon>add</mat-icon>Add Med
+                        </button></div>
+                    </form>
+
+                    
+
+                    
+                        
+
+
+
+                </div>
+            </div>
+        </td>
+                <td colspan="2" style="width: 60rem;"  >
+                    <div *ngIf="medListForPrescription.length>0">
+                        <p class="fs-5">These are the meds you added so far:</p>
+
+                        <table class="table table-bordered table-responsive table-hover pt-5" style="width: 100%;margin-right: 2%; margin-left: auto;" >
+                            <thead>
+                              <tr>
+                                <th scope="col" style="text-align:center;" >Medication Name</th>
+                                <th scope="col" style="text-align:center;" >How Often it should be taken</th>
+                                <th scope="col" style="text-align:center;" ></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr *ngFor="let item of medListForPrescription;trackBy: trackByFn">
+                                <td  class="position-relative " style="text-align:center; vertical-align: center;"  >
+                                    {{item.mlMedicationName}}
+                                </td>
+                                <td  class="position-relative " style="text-align:center; vertical-align: center;" >
+                                    {{item.mlHowOften}}
+                                </td>
+                                <td class="position-relative " style="text-align:center; vertical-align: center;">
+                                    <mat-icon id="deleteIcon" (click)="eraseElement(item)">delete</mat-icon>
+                                    
+                                </td>
+                              </tr>
+                             
+                              
+                              
+                            </tbody>
+                          </table>
+                
+                           
+                        
+                    </div>
+                    <div *ngIf="medListForPrescription.length===0"><p class="fs-5">You have not chosen any meds yet.</p></div>
+
+                </td>
+            </tr>
+            <tr >
+                <td colspan="3" style="margin-left: auto;margin-right: auto;  text-align:center; ">
+                            <button [disabled]="loadingAll"  mat-raised-button color="warn" style="font-size: 130%;" (click)="onSubmitAll()">
+                    <span *ngIf="loadingAll" class="spinner-border spinner-border-sm mr-1"></span>
+                    Submit Prescription  <mat-icon>done_outline</mat-icon>
+                </button>
+                <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+        
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+  
+<div class="fixed">
+     
+    <button mat-raised-button color="accent" (click)="visitLastPage()" style="height: max-content;" type="submit"><mat-icon>keyboard_backspace</mat-icon>Go Back</button>
+    </div>
+
+
+
+
+
+

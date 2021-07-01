@@ -1,0 +1,27 @@
+
+
+  .tableBig { border-collapse: collapse; }
+  .tableBig tr { border: none; }
+  .tableBig td {
+  border-right: solid 1px black; 
+  border-left: solid 1px black;
+}
+
+.tableLittle td{
+    border: none;
+}
+
+  .tableBig td:first-child
+   {
+  border-left: 0;
+}
+ .tableBig td:last-child
+  {
+  border-right: 0;
+}
+
+.tableLast{
+    border: 1px solid black;
+}
+
+

@@ -1,0 +1,113 @@
+
+
+
+<h2><i>Prescription details</i></h2>
+
+    <table class="table table-hover table-striped table-responsive pb-5" *ngIf="prescription">
+      <thead>
+        <tr>
+          <th scope="col">Status</th>
+          <th scope="col">Diagnosis</th>
+          <th scope="col">
+            <div *ngIf="(loggedUser.uIsDoctor===1 && loggedUser.uId!==prescription.pPatientId); else elseBlock">
+              Given to
+            </div>
+            <ng-template #elseBlock>
+              Given by
+            </ng-template>
+          </th>
+          <th scope="col">Started taking it</th>
+            <th scope="col">Ended taking it</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td class="align-middle">{{prescription.pStatus}}</td>
+          <td class="align-middle">{{prescription.pDiagnosis}}</td>
+          <td class="align-middle">
+            <div *ngIf="(loggedUser.uIsDoctor===1 && loggedUser.uId!==prescription.pPatientId); else elseBlock3">
+              <a class="nav-link active" [routerLink]="['/patient-details',prescription.pPatientId]" routerLinkActive="active">Patient {{(prescription.pPatientId  | getDoctorPipe : userService | async).uName}}</a>
+            </div>
+            <ng-template #elseBlock3>
+              Dr. {{(prescription.pDoctorId  | getDoctorPipe : userService | async).uName}}
+            </ng-template>
+          </td>
+          <td class="align-middle">
+            <div *ngIf="prescription.pStartDate!=null">
+              {{prescription.pStartDate}}
+            </div>
+          </td>
+          <td class="align-middle">
+            <div *ngIf="prescription.pEndDate!=null">
+              {{prescription.pEndDate}}
+            </div>
+          </td>
+        </tr>
+        <tr *ngIf="prescription.pStatus!=='Finished' && (loggedUser.uIsDoctor===0 || loggedUser.uId===prescription.pPatientId)">
+          <td>
+             <button mat-raised-button color="accent" (click)="openDialog()"><mat-icon>edit</mat-icon>Change status</button>
+      
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+        
+      </tbody>
+    </table>
+
+
+    <table class="table table-bordered table-responsive center table-hover pt-5" *ngIf="medListOfPrescription" style="border-color: black;">
+      <thead>
+        <tr>
+          <th scope="col">Medication Name</th>
+          <th scope="col">How often is to be taken</th>
+          <th scope="col" style="text-align:center;">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let medListMember of medListOfPrescription">
+          <td><a class="nav-link active" [routerLink]="['/medication-details',medListMember.mlMedicationId]" routerLinkActive="active"> {{medListMember.mlMedicationName}} </a></td>
+          <td>{{medListMember.mlHowOften}}</td>
+          <td  class="position-relative " style="text-align:center; vertical-align: center;" >
+            <div *ngIf="!(medListMemberBoolDict.get(medListMember)) && (loggedUser.uId===prescription.pPatientId) && (prescription.pStatus==='Finished' || prescription.pStatus==='Dismissed') && prescription.pStartDate">
+              <a class="nav-link active" [routerLink]="['/add-review',prescription.pId,medListMember.mlMedicationId]" routerLinkActive="active">
+                <button  mat-raised-button color="warn"><mat-icon>add</mat-icon>Add review</button>
+              </a>
+               </div>
+               <div *ngIf="medListMemberBoolDict.get(medListMember)" class="align-middle">
+                <button  mat-raised-button color="accent" style="font-size: 100%;" (click)="openReviewDialog(medListMemberReviewDict.get(medListMember).rId)"><mat-icon>view_agenda</mat-icon>View review</button>
+                  
+                
+              </div>
+          </td>
+          
+        </tr>
+        
+        
+      </tbody>
+    </table>
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+    <div class="fixed">
+     
+  <button mat-raised-button color="accent" (click)="visitLastPage()" style="height: max-content;" type="submit"><mat-icon>keyboard_backspace</mat-icon>Go Back</button>
+  </div>
+
+  <br>
+  <br>
+  <br>
