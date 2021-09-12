@@ -1,7 +1,0 @@
-SELECT * FROM CurrentVersionOfDatabase
-SET TRANSACTION ISOLATION LEVEL SNAPSHOT
-BEGIN TRAN
-SELECT * FROM CurrentVersionOfDatabase
-WAITFOR DELAY '00:00:10'
-UPDATE CurrentVersionOfDatabase set DB_Current_version=5 where DB_ID=0
-COMMIT TRAN

@@ -1,6 +1,0 @@
-﻿  SortedBag.cpp
-  main.cpp
-  Generating Code...
-c:\users\asus\source\repos\lab7 sda\lab7 sda\sortedbag.cpp(34): warning C4715: 'SortedBag::get_pos': not all control paths return a value
-c:\users\asus\source\repos\lab7 sda\lab7 sda\sortedbag.cpp(336): warning C4715: 'SortedBag::remove': not all control paths return a value
-  lab7 sda.vcxproj -> C:\Users\Asus\source\repos\lab7 sda\Debug\lab7 sda.exe

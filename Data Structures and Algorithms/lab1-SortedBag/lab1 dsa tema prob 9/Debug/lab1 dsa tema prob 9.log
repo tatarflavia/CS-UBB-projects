@@ -1,7 +1,0 @@
-﻿  ExtendedTest.cpp
-  main.cpp
-  ShortTest.cpp
-  SortedBag.cpp
-c1xx : fatal error C1083: Cannot open source file: 'SortedBag.cpp': No such file or directory
-  SortedBagIterator.cpp
-  Generating Code...

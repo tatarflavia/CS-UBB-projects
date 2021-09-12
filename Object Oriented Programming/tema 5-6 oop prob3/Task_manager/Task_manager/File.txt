@@ -1,5 +1,0 @@
-solve_oop_assignment 120 1
-respond_to_mails 45 2
-eat_sushi 30 3
-visit_parent 240 1
-buy_a_jacket 120 2
